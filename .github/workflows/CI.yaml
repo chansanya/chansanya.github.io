@@ -24,8 +24,18 @@ jobs: # 工作流
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }} # 版本
+
+      - name: build
+        run: npm install && yarn run build
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GIT_PAGES_TOKEN }}
+          publish_dir: ./docs/.vuepress/dist
+
         # 步骤3
-      - name: run deploy.sh 
-        env: # 设置环境变量
-          GIT_PAGES_TOKEN: ${{ secrets.GIT_PAGES_TOKEN }} # toKen私密变量
-        run: npm install && npm run deploy # 执行的命令
+#      - name: run deploy.sh
+#        env: # 设置环境变量
+#          GIT_PAGES_TOKEN: ${{ secrets.GIT_PAGES_TOKEN }} # toKen私密变量
+#        run: npm install && npm run deploy # 执行的命令
