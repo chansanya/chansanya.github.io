@@ -10,21 +10,21 @@ yarn run build
 cd docs/.vuepress/dist
 
 # 如果是发布到自定义域名
-echo 'blog.lovefile.com' > CNAME
+#echo 'blog.lovefile.com' > CNAME
 
 if [ -z "$GIT_PAGES_TOKEN" ]; then
   msg='deploy'
   githubUrl=git@github.com:chansanya/chansanya.github.io.git
 else
   msg='来自github action的自动部署'
-  githubUrl=https://chansanya:${GIT_PAGES_TOKEN}@github.com/chansanya/chansanya.github.io.git
+  githubUrl=https://chansanya:${GIT_PAGES_TOKEN}@github.com/chansanya/blog.git
   git config --global user.name "yan"
   git config --global user.email "984038622@qq.com"
 fi
 git init
 git add -A
 git commit -m "${msg}"
-git push -f $githubUrl master 
+git push -f $githubUrl  master:gh-pages
 
 cd -
 
