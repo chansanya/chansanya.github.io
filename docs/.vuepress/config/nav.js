@@ -40,9 +40,9 @@ module.exports = [
         text: '与她相关', 
         link: '/pages/7d6a40/' ,
         items:[
-          { text: '相遇', link: '/pages/7d6a40/' },
-          { text: '相识', link: '/pages/7d6a40/' },
-          { text: '未完待续', link: '/pages/7d6a40/' },
+          { text: '相遇', link: '/pages/7d6a41/' },
+          { text: '相识', link: '/pages/7d6a42/' },
+          { text: '未完待续', link: '/pages/7d6a43/' },
         ]
      }
     ],
