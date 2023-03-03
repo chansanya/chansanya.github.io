@@ -14,6 +14,7 @@ module.exports = [
     items: [
       { text: 'python',link:"/python/"},
       { text: 'vue',link:"/vue/"},
+      { text: 'html',link:"/html/"},
     ],
   },
   {
