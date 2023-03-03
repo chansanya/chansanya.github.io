@@ -4,16 +4,16 @@ module.exports = [
     text: '技术',
     link: '/technology/',
     items: [
-      { text: 'JAVA',link:"/java/"},
-      { text: 'Linux',link:"/linux/"},
+      { text: 'java',link:"/java/"},
+      { text: 'linux',link:"/linux/"},
     ],
   },
   {
     text: '学习',
     link: '/study/',
     items: [
-      { text: 'Python',link:"/python/"},
-      { text: 'Vue',link:"/vue/"},
+      { text: 'python',link:"/python/"},
+      { text: 'vue',link:"/vue/"},
     ],
   },
   {
@@ -29,7 +29,7 @@ module.exports = [
     text: '喜欢的',
     link: '/love/',
     items: [
-      { text: '游戏', 
+      { text: '02.游戏',
          link: '/pages/cd90ce/' ,
          items:[
           { text: '只狼', link: '/pages/cd90ce/' },

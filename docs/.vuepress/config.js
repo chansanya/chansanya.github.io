@@ -19,7 +19,7 @@ module.exports = {
       'meta',
       {
         name: 'keywords',
-        content: '前端博客,个人技术博客,前端,前端开发,前端框架,web前端,前端面试题,技术文档,学习,面试,JavaScript,js,ES6,TypeScript,vue,python,css3,html5,Node,git,github,markdown',
+        content: 'Java,Linux',
       },
     ],
     ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
@@ -34,5 +34,16 @@ module.exports = {
   ],
 
   // 插件配置
-  plugins
+  plugins,
+
+  markdown: {
+    // lineNumbers: true,
+    extractHeaders: ['h2', 'h3', 'h4', 'h5', 'h6'], // 提取标题到侧边栏的级别，默认['h2', 'h3']
+  },
+
+  // 监听文件变化并重新构建
+  extraWatchFiles: [
+    '.vuepress/config.js',
+    '.vuepress/config/htmlModules.js',
+  ]
 }
