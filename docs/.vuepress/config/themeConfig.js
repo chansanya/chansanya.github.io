@@ -96,7 +96,7 @@ module.exports = {
       '产彡 | <a href="https://github.com/chansanya/chansanya.github.io/blob/master/LICENSE" target="_blank">MIT License</a> </br>   湘ICP备2021015472号 ', // 博客版权信息、备案信息等，支持a标签或换行标签</br>
   },
 
-  // 扩展自动生成frontmatter。（当md文件的frontmatter不存在相应的字段时将自动添加。不会覆盖已有的数据。）
+  // 扩展自动生成front-matter。（当md文件的front-matter不存在相应的字段时将自动添加。不会覆盖已有的数据。）
   extendFrontmatter: {
     author: {
       name: 'Yan',
