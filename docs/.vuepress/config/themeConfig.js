@@ -27,10 +27,9 @@ module.exports = {
 
   // body背景大图，默认无。 单张图片 String | 多张图片 Array, 多张图片时每隔15秒换一张。
   bodyBgImg: [
-    'https://qiniu.seeyou.love/login-background.jpg',
-    'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200507175828.jpeg',
-    'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200507175845.jpeg',
-    'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200507175846.jpeg'
+    'https://cdn.jsdelivr.net/gh/chansanya/file_store/images/blog/background/bg1.jpg',
+    // 'https://cdn.jsdelivr.net/gh/chansanya/file_store/images/blog/background/bg2.png',
+    // 'https://cdn.jsdelivr.net/gh/chansanya/file_store/images/blog/background/bg6.jpg',
   ],
   // body背景图透明度，选值 0 ~ 1.0, 默认0.5
   bodyBgImgOpacity: 0.9,
@@ -65,8 +64,10 @@ module.exports = {
 
   // 文章默认的作者信息，(可在md文件中单独配置此信息) string | {name: string, link?: string}
   author: {
-    name: '产彡', // 必需
-    link: 'https://github.com/chansanya', // 可选的
+    // 必需
+    name: '产彡',
+    // 可选的
+    link: 'https://github.com/chansanya',
   },
 
   // 博主信息 (显示在首页侧边栏)

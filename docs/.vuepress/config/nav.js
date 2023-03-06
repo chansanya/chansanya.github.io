@@ -17,15 +17,15 @@ module.exports = [
       { text: 'html',link:"/html/"},
     ],
   },
-  // {
-  //   text: '收藏',
-  //   link: '/pages/b4e632/',
-  //   items: [
-  //     { text: '文章', link: '/pages/2c9c8d/' },
-  //     { text: '视频', link: '/pages/e3d44a/' },
-  //     { text: '音乐', link: '/pages/7fbfa7/' },
-  //   ],
-  // },
+  {
+    text: '收藏',
+    link: '/pages/b4e632/',
+    items: [
+      { text: '文章', link: '/pages/2c9c8d/' },
+      { text: '视频', link: '/pages/e3d44a/' },
+      { text: '音乐', link: '/pages/7fbfa7/' },
+    ],
+  },
   // {
   //   text: '喜欢的',
   //   link: '/love/',

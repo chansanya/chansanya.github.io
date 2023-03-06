@@ -17,10 +17,10 @@ features: # 可选的
     details: 一些好用的轮子
     link: /linux/
     imgUrl: /img/ui.png
-#  - title: 爱好
-#    details: 喜欢的东西
-#    link: /love/
-#    imgUrl: /img/other.png
+  - title: 收藏
+    details: 收藏
+    link: /save/
+    imgUrl: /img/other.png
 
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
 postList: simple
