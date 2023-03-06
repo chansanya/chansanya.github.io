@@ -2,10 +2,7 @@
 home: true
 # heroImage: /img/heard.png
 heroText: Mediocre
-tagline: 优秀的人那么多，凭什么停下脚步
-# actionText: 开始吧
-# actionLink: /technology/
-# bannerBg: /img/bg.jpeg
+tagline: 保持你的好奇心
 bannerBg: none
 
 features: # 可选的
