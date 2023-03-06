@@ -16,10 +16,14 @@ module.exports = {
 
   //*** 以下是Vdoing主题相关配置，文档：https://doc.xugaoyi.com/pages/a20ce8/ ***//
 
-  // category: false, // 是否打开分类功能，默认true
-  // tag: false, // 是否打开标签功能，默认true
-  // archive: false, // 是否打开归档功能，默认true
-  // categoryText: '随笔', // 碎片化文章（_posts文件夹的文章）预设生成的分类值，默认'随笔'
+  // 是否打开分类功能，默认 true
+  category: false,
+  // 是否打开标签功能，默认 true
+  tag: true,
+  // 是否打开归档功能，默认 true
+  archive: true,
+  // 碎片化文章（_posts文件夹的文章）预设生成的分类值，默认'随笔'
+  categoryText: '随笔',
 
   //页面风格，可选值：'card'卡片 | 'line' 线（未设置bodyBgImg时才生效），
   // 默认'card'。 说明：card时背景显示灰色衬托出卡片样式，line时背景显示纯色，并且部分模块带线条边框
@@ -50,12 +54,12 @@ module.exports = {
     moreArticle: '/archives'
   },
 
-  // 是否显示右侧文章大纲栏，默认true (屏宽小于1300px下无论如何都不显示)
-  // rightMenuBar: false,
-  // 初始状态是否打开左侧边栏，默认true
-  // sidebarOpen: false,
-  // 是否显示快捷翻页按钮，默认true
-  // pageButton: false,
+  // 是否显示右侧文章大纲栏，默认 true (屏宽小于1300px下无论如何都不显示)
+  rightMenuBar: true,
+  // 初始状态是否打开左侧边栏，默认 true
+  sidebarOpen: true,
+  // 是否显示快捷翻页按钮，默认 true
+  pageButton: true,
 
   // 侧边栏  'structuring' | { mode: 'structuring', collapsable: Boolean} | 'auto' | <自定义>
   // 温馨提示：目录页数据依赖于结构化的侧边栏数据，如果你不设置为'structuring',将无法使用目录页
@@ -70,34 +74,34 @@ module.exports = {
     link: 'https://github.com/chansanya',
   },
 
-  // 博主信息 (显示在首页侧边栏)
-  blogger: {
-    avatar: 'https://avatars.githubusercontent.com/u/47585031?v=4',
-    name: '产彡',
-    slogan: '日积月累',
-  },
-
-  // 社交图标 (显示于博主信息栏和页脚栏。内置图标：https://doc.xugaoyi.com/pages/a20ce8/#social)
-  social: {
-    // iconfontCssFile: '//at.alicdn.com/t/xxx.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自己添加。阿里图片库：https://www.iconfont.cn/
-    icons: [
-      {
-        iconClass: 'icon-youjian',
-        title: '发邮件',
-        link: 'mailto:984038622@qq.com',
-      },
-      {
-        iconClass: 'icon-github',
-        title: 'GitHub',
-        link: 'https://github.com/chansanya',
-      },
-      {
-        iconClass: 'icon-erji',
-        title: '听音乐',
-        link: 'https://music.163.com/#/playlist?id=755597173',
-      },
-    ],
-  },
+  // // 博主信息 (显示在首页侧边栏)
+  // blogger: {
+  //   avatar: 'https://avatars.githubusercontent.com/u/47585031?v=4',
+  //   name: '产彡',
+  //   slogan: '日积月累',
+  // },
+  //
+  // // 社交图标 (显示于博主信息栏和页脚栏。内置图标：https://doc.xugaoyi.com/pages/a20ce8/#social)
+  // social: {
+  //   // iconfontCssFile: '//at.alicdn.com/t/xxx.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自己添加。阿里图片库：https://www.iconfont.cn/
+  //   icons: [
+  //     {
+  //       iconClass: 'icon-youjian',
+  //       title: '发邮件',
+  //       link: 'mailto:984038622@qq.com',
+  //     },
+  //     {
+  //       iconClass: 'icon-github',
+  //       title: 'GitHub',
+  //       link: 'https://github.com/chansanya',
+  //     },
+  //     {
+  //       iconClass: 'icon-erji',
+  //       title: '听音乐',
+  //       link: 'https://music.163.com/#/playlist?id=755597173',
+  //     },
+  //   ],
+  // },
 
   // 页脚信息
   footer: {

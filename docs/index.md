@@ -9,15 +9,15 @@ features:
   - title:  记录
     details: 建设中。。。
     link: /technology/
-    # imgUrl: /img/other.png
+    imgUrl: /img/other.png
   - title: 学习
     details: 目前在学CSS
     link: /html/
-    # imgUrl: /img/ui.png
+    imgUrl: /img/ui.png
   - title: 收藏
     details: 建设中。。。
     link: /save/
-    # imgUrl: /img/more.png
+    imgUrl: /img/more.png
 
 # 文章列表显示方式: 
 # detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）
@@ -27,9 +27,10 @@ postList: none
 
 # 简约版文章列表显示的文章数量，默认10。（仅在postList设置为simple时生效）
 simplePostListLength: 5 
-
 # 是否隐藏右侧边栏
-# hideRightBar: false
+hideRightBar: false
+
+
 ---
 
 
