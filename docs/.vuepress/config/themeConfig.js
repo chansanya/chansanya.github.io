@@ -73,8 +73,8 @@ module.exports = {
   // 博主信息 (显示在首页侧边栏)
   blogger: {
     avatar: 'https://avatars.githubusercontent.com/u/47585031?v=4',
-    name: 'Yan',
-    slogan: '做自己喜欢的事情',
+    name: '产彡',
+    slogan: '积累，从现在开始',
   },
 
   // 社交图标 (显示于博主信息栏和页脚栏。内置图标：https://doc.xugaoyi.com/pages/a20ce8/#social)
@@ -114,6 +114,6 @@ module.exports = {
     }
   },
 
-  // 插入hmtl(广告)模块
-  htmlModules
+  // 插入hmtl 心情等
+  // htmlModules
 }
