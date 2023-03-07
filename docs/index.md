@@ -6,18 +6,18 @@ tagline: 保持好奇心
 bannerBg: none
 
 features:
-  - title:  记录
+  - title:  梳理
     details: 建设中。。。
-    link: /technology/
-    imgUrl: /img/other.png
+    link: /tease/
+    imgUrl: /features/smart.png
   - title: 学习
     details: 目前在学CSS
     link: /html/
-    imgUrl: /img/ui.png
+    imgUrl: /features/study.png
   - title: 收藏
     details: 建设中。。。
     link: /save/
-    imgUrl: /img/more.png
+    imgUrl: /features/idea.png
 
 # 文章列表显示方式: 
 # detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）

@@ -1,8 +1,8 @@
 module.exports = [
   { text: '首页', link: '/' },
   {
-    text: '技术',
-    link: '/technology/',
+    text: '梳理',
+    link: '/tease/',
     items: [
       { text: 'JAVA',link:"/java/"},
     ],
