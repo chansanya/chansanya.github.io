@@ -1,8 +1,8 @@
 module.exports = [
   { text: '首页', link: '/' },
   {
-    text: '梳理',
-    link: '/tease/',
+    text: '知识库',
+    link: '/knowledge/',
     items: [
       { text: 'JAVA',link:"/java/"},
     ],
@@ -33,7 +33,7 @@ module.exports = [
     text: '索引',
     link: '/archives/',
     items: [
-      { text: '分类', link: '/categories/' },
+      // { text: '分类', link: '/categories/' },
       { text: '标签', link: '/tags/' },
       { text: '归档', link: '/archives/' },
     ],

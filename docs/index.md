@@ -6,16 +6,16 @@ tagline: 保持好奇心
 bannerBg: none
 
 features:
-  - title:  梳理
-    details: 建设中。。。
-    link: /tease/
+  - title:  知识库
+    details: 整理，汇总
+    link: /knowledge/
     imgUrl: /features/smart.png
   - title: 学习
-    details: 目前在学CSS
-    link: /html/
+    details: 学习，记录
+    link: /study/
     imgUrl: /features/study.png
   - title: 收藏
-    details: 建设中。。。
+    details: 兴趣，收录
     link: /save/
     imgUrl: /features/idea.png
 
