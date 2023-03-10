@@ -44,25 +44,23 @@ tags:
 
 ### 命令
 
-
+#### 快速执行
 ```shell
 realesrgan-ncnn-vulkan.exe -i input.jpg -o output.png
 ```
 
-```shell
+#### 指定模型
+```shell 
 realesrgan-ncnn-vulkan -i input.jpg -o output.png -n realesr-animevideov3
 realesrgan-ncnn-vulkan -i input.jpg -o output2.png -n realesrgan-x4plus-anime
 ```
 
-```shell
-realesrgan-ncnn-vulkan -i input_folder -o outputfolder -n realesr-animevideov3 -s 2 -f jpg
-```
-
-```shell
+#### 指定模型及图片比例
+```shell 
 realesrgan-ncnn-vulkan -i input_folder -o outputfolder -n realesr-animevideov3 -s 4 -f jpg
 ```
 
-```shell
+```shell  
 realesrgan-ncnn-vulkan.exe -i demo.mp4 -o output.mp4 -n realesr-animevideov3
 ```
 
@@ -76,10 +74,11 @@ ffmpeg -i onepiece_demo.mp4 -qscale:v 1 -qmin 1 -qmax 1 -vsync 0 tmp_frames/fram
 
 
 创建一个名为 `out_frames` 的目录
-#### 修复
+#### 修复帧
 ```shell
 realesrgan-ncnn-vulkan.exe -i tmp_frames -o out_frames -n realesr-animevideov3 -s 2 -f jpg
 ```
+
 #### 得到视频帧数
 ```shell
 ffmpeg -i onepiece_demo.mp4
@@ -98,7 +97,9 @@ ffmpeg -r 23.98 -i out_frames/frame%08d.jpg -i onepiece_demo.mp4 -map 0:v:0 -map
 
 
 
-### 补充脚本
+
+
+### 简单Bat脚本
 ```shell
 @echo off
 chcp 65001
