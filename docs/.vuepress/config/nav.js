@@ -17,23 +17,17 @@ module.exports = [
     ],
   },
   {
-    text: '收藏',
+    text: '收录',
     link: '/pages/2c9c8d/',
-    items: [
-      { text: '链接', link: '/pages/2c9c8d/' },
-      // { text: '视频', link: '/pages/e3d44a/' },
-      // { text: '音乐', link: '/pages/7fbfa7/' },
-    ],
   },
   {
-    text: '随笔',
-    link: '/essay/',
+    text: '关于',
+    link: '/about/',
   },
   {
     text: '索引',
-    link: '/archives/',
     items: [
-      // { text: '分类', link: '/categories/' },
+      { text: '分类', link: '/categories/' },
       { text: '标签', link: '/tags/' },
       { text: '归档', link: '/archives/' },
     ],
