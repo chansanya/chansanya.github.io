@@ -14,11 +14,20 @@ tags:
   - 
 ---
 
-偶然间发现的一个视频修复工具，整理了下使用方法
+偶然发现了一图片(视频)修复工具
+
+[RealESRGAN](https://github.com/xinntao/Real-ESRGAN/blob/master/README_CN.md)腾讯 ARC 实验室发布的一个盲图像超分辨率模型
+
+通过模拟高分辨率图像变低分辩率过程中的各种退化，然后再通过低清图倒推出它的高清图。
+
+支持Intel/AMD/Nvidia显卡
+
+绿色版exe文件含:Windows/Linux/MacOS
+
+小白也能轻松玩转，下面记录下基本使用方法
 
 <!-- more -->
 
-# [RealESRGAN](https://github.com/xinntao/Real-ESRGAN/blob/master/README_CN.md)
 
 ### 模型
 - realesrgan-x4plus（默认）
