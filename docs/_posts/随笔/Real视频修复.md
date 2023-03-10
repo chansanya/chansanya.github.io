@@ -2,11 +2,16 @@
 title: Real视频修复
 date: 2023-03-07 15:52:14
 permalink: /pages/d8b281/
-tags:
-  - 
 author: 
   name: Yan
   link: https://github.com/chansanya
+sidebar: auto
+sticky: 1
+titleTag: 尝试
+categories: 
+  - 随笔
+tags: 
+  - 
 ---
 
 偶然间发现的一个视频修复工具，整理了下使用方法
