@@ -90,12 +90,18 @@ module.exports = [
         //是否开启自动播放
         autoplay: true,
         //主题色
-        theme: '#11a8cd',
+        theme: '#186071',
         //描述：设置 lrc 歌词解析模式
         // 可选值： 3 | 1 | 0（0：禁用 lrc 歌词，1：lrc 格式的字符串，3：lrc 文件 url）
         lrcType: 3,
         //是否折叠播放列表
         listFolded: true
+      },
+      mobile: {
+        //不显示封面
+        cover: false,
+        //不显示歌词
+        lrc: false
       },
       defaultCover: 'https://cdn.jsdelivr.net/gh/chansanya/file_store/images/thanks-removebg-preview.png',
     }

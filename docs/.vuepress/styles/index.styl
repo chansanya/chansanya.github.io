@@ -110,8 +110,16 @@ body{
   border-radius 50%;
 }
 
+.aplayer {
+  --aplayerLeft: .3rem
+  --aplayerBottom: 1.5rem
+}
+
+
 .aplayer-body{
     background:transparent !important;
+    bottom: var(--aplayerBottom) !important;
+    left: var(--aplayerLeft) !important;
 }
 .aplayer-miniswitcher{
   background:transparent !important;
@@ -119,4 +127,26 @@ body{
 
 .aplayer-pic{
   border-radius: 50% !important;
+}
+
+
+.aplayer.aplayer-fixed {
+  position: fixed !important;
+  bottom: 20px  !important;
+  bottom: var(--aplayerBottom) !important;
+  background: transparent  !important;
+  border: none  !important;
+}
+
+.aplayer-list {
+   border : none !important;
+}
+
+.aplayer-info {
+  border : none !important;
+}
+
+.aplayer-pause {
+  bottom: 22px !important;
+  right: 22px !important;
 }
