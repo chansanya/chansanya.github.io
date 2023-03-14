@@ -13,9 +13,6 @@ categories:
 tags: 
   - 
 ---
-
-偶然发现了一图片(视频)修复工具
-
 [RealESRGAN](https://github.com/xinntao/Real-ESRGAN/blob/master/README_CN.md)腾讯 ARC 实验室发布的一个盲图像超分辨率模型
 
 通过模拟高分辨率图像变低分辩率过程中的各种退化，然后再通过低清图倒推出它的高清图。
@@ -108,7 +105,7 @@ ffmpeg -r 23.98 -i out_frames/frame%08d.jpg -i onepiece_demo.mp4 -map 0:v:0 -map
 
 
 
-### 简单Bat脚本
+### 图片修复简单Bat脚本
 ```shell
 @echo off
 chcp 65001

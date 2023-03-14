@@ -72,16 +72,16 @@ module.exports = [
     'meting',
     {
       //即 Meting 的 api，默认为 @metowolf 提供的 api，你也可以通过自建修改该选项
-      metingApi: 'https://api.injahow.cn/meting/',
+      // metingApi: 'https://api.injahow.cn/meting/',
       meting: {
         //描述：MetingApi 中的 type 参数，即资源类型（播放列表、单曲、专辑等）
         //可选值： "song" | "album" | "artist" | "playlist"
         type: 'playlist',
-        // server: 'netease',
+        server: 'netease',
         //描述：MetingApi 中的 id 参数，即资源 ID
-        // mid: '6842116771',
-        server: 'tencent',
-        mid: '8054843490',
+        mid: '8233821214',
+        // server: 'tencent',
+        // mid: '8054843490',
       }, // 不配置该项的话不会出现全局播放器
       aplayer: {
         //是否开启吸底模式
