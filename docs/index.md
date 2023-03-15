@@ -7,16 +7,16 @@ bannerBg: none
 
 features:
   - title:  知识库
-    details: 整理，汇总
+    details: 记录，整理
     link: /knowledge/
     imgUrl: /features/smart.png
   - title: 学习
-    details: 学习，记录
+    details: 巩固，笔记
     link: /study/
     imgUrl: /features/study.png
   - title: 收藏
     details: 兴趣，收录
-    link: /save/
+    link: /pages/2c9c8d/
     imgUrl: /features/idea.png
 
 # 文章列表显示方式: 

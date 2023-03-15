@@ -17,10 +17,6 @@ module.exports = [
     ],
   },
   {
-    text: '收录',
-    link: '/pages/2c9c8d/',
-  },
-  {
     text: '关于',
     link: '/about/',
   },

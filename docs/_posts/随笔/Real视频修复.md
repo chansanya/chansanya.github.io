@@ -1,5 +1,5 @@
 ---
-title: Real视频修复
+title: 视频修复
 date: 2023-03-07 15:52:14
 permalink: /pages/d8b281/
 author: 
@@ -7,7 +7,7 @@ author:
   link: https://github.com/chansanya
 sidebar: auto
 sticky: 1
-titleTag: 尝试
+titleTag: TOP
 categories: 
   - 随笔
 tags: 
@@ -19,9 +19,9 @@ tags:
 
 支持Intel/AMD/Nvidia显卡
 
-绿色版exe文件含:Windows/Linux/MacOS
+绿色版exe文件含: Windows/Linux/MacOS
 
-小白也能轻松玩转，下面记录下基本使用方法
+使用起来简直是不要太简单
 
 <!-- more -->
 
