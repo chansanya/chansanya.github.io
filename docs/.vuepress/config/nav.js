@@ -13,7 +13,7 @@ module.exports = [
     items: [
       // { text: 'python',link:"/python/"},
       // { text: 'vue',link:"/vue/"},
-      { text: 'HTML',link:"/html/"},
+      { text: 'H5',link:"/h5/"},
     ],
   },
   {
