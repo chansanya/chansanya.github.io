@@ -1,8 +1,8 @@
 ---
 home: true
 # heroImage: /img/heard.png
-heroText: Mediocre
-tagline: 保持好奇心
+heroText: Yan
+tagline: 犹豫就会败北
 bannerBg: none
 
 features:

@@ -69,7 +69,7 @@ module.exports = {
   // 文章默认的作者信息，(可在md文件中单独配置此信息) string | {name: string, link?: string}
   author: {
     // 必需
-    name: '产彡',
+    name: 'Yan',
     // 可选的
     link: 'https://github.com/chansanya',
   },
@@ -79,7 +79,7 @@ module.exports = {
     // avatar: 'https://avatars.githubusercontent.com/u/47585031?v=4',
     avatar: '/img/heard.png',
     name: '产彡',
-    slogan: '日积月累',
+    slogan: '半夜偷偷卷',
   },
 
   // 社交图标 (显示于博主信息栏和页脚栏。内置图标：https://doc.xugaoyi.com/pages/a20ce8/#social)
