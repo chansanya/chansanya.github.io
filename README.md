@@ -1,5 +1,5 @@
 
-<h1 style="text-align: center" YAN BLOG</h1>
+<h1 style="text-align: center">Yan's Blog</h1>
 
 基于 vuepress-theme-vdoing 主题的博客
 

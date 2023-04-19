@@ -69,7 +69,7 @@ module.exports = {
   // 文章默认的作者信息，(可在md文件中单独配置此信息) string | {name: string, link?: string}
   author: {
     // 必需
-    name: 'Yan',
+    name: 'YAN',
     // 可选的
     link: 'https://github.com/chansanya',
   },
@@ -114,7 +114,7 @@ module.exports = {
   // 扩展自动生成front-matter。（当md文件的front-matter不存在相应的字段时将自动添加。不会覆盖已有的数据。）
   extendFrontmatter: {
     author: {
-      name: 'Yan',
+      name: 'YAN',
       link: 'https://github.com/chansanya'
     }
   },

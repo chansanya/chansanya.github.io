@@ -1,7 +1,7 @@
 ---
 home: true
 # heroImage: /img/heard.png
-heroText: Yan
+heroText: YAN
 tagline: 犹豫就会败北
 bannerBg: none
 
