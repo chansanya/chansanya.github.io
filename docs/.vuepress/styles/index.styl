@@ -128,6 +128,11 @@ body{
 
 .aplayer-pic{
   border-radius: 50% !important;
+  animation-name: aplayer_run;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
 }
 
 
@@ -150,4 +155,52 @@ body{
 .aplayer-pause {
   bottom: 22px !important;
   right: 22px !important;
+}
+
+@keyframes  aplayer_run{
+
+  0%{
+    transform: rotate(0deg);
+  }
+
+  10%{
+    transform: rotate(36*1deg);
+  }
+
+  20%{
+    transform: rotate(36*2deg);
+  }
+
+  30%{
+    transform: rotate(36*3deg);
+  }
+
+  40%{
+    transform: rotate(36*4deg);
+  }
+
+  50%{
+    transform: rotate(36*5deg);
+  }
+
+  60%{
+    transform: rotate(36*6deg);
+  }
+
+  70%{
+    transform: rotate(36*7deg);
+  }
+
+  80%{
+    transform: rotate(36*8deg);
+  }
+
+  90%{
+    transform: rotate(36*9deg);
+  }
+
+  100%{
+    transform: rotate(36*10deg);
+  }
+
 }
