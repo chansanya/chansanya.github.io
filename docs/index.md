@@ -2,7 +2,7 @@
 home: true
 # heroImage: /img/heard.png
 heroText: YAN
-tagline: 犹豫就会败北
+tagline: 这次来找什么呀！
 bannerBg: none
 
 features:
