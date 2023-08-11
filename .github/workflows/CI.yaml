@@ -1,7 +1,7 @@
 name: CI
 
 # 在master分支发生push事件时触发。
-on: 
+on:
   push:
     branches:
       - master
@@ -13,15 +13,15 @@ jobs: # 工作流
       matrix:
         node-version: [10.x]
 
-    steps: 
+    steps:
        # 步骤1
-      - name: Checkout 
+      - name: Checkout
       # 使用的动作。格式：userName/repoName。作用：检出仓库，获取源码。 官方actions库：https://github.com/actions
-        uses: actions/checkout@v1 
+        uses: actions/checkout@v3
         # 步骤2
         # 作用：安装nodejs
-      - name: Use Node.js ${{ matrix.node-version }} 
-        uses: actions/setup-node@v1
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }} # 版本
 
