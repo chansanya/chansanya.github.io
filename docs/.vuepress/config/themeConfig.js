@@ -31,7 +31,8 @@ module.exports = {
 
   // body背景大图，默认无。 单张图片 String | 多张图片 Array, 多张图片时每隔15秒换一张。
   bodyBgImg: [
-    'https://cdn.jsdelivr.net/gh/chansanya/file_store/images/blog/background/bg1.jpg',
+      '/img/bg/bg1.jpg'
+    // 'https://cdn.jsdelivr.net/gh/chansanya/file_store/images/blog/background/bg1.jpg',
     // 'https://cdn.jsdelivr.net/gh/chansanya/file_store/images/blog/background/bg2.png',
     // 'https://cdn.jsdelivr.net/gh/chansanya/file_store/images/blog/background/bg6.jpg',
   ],
