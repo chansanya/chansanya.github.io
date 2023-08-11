@@ -22,7 +22,7 @@ module.exports =[
         'script',
         {
             async: 'async',
-            src: 'https://fastly.jsdelivr.net/gh/chansanya/live2d-widget@v0.0.1/autoload.js',
+            src: 'https://fastly.jsdelivr.net/gh/chansanya/live2d-widget@v0.0.2/autoload.js',
             // src: 'https://fastly.jsdelivr.net/gh/chansanya/live2d-widget@latest/autoload.js',
         },
     ],
