@@ -67,44 +67,44 @@ module.exports = [
       },
     },
   ],
-  // [
-  //     //参考: https://moefyit.github.io/moefy-vuepress/packages/meting.html
-  //   'meting',
-  //   {
-  //     //即 Meting 的 api，默认为 @metowolf 提供的 api，你也可以通过自建修改该选项
-  //     // metingApi: 'https://api.injahow.cn/meting/',
-  //     meting: {
-  //       //描述：MetingApi 中的 type 参数，即资源类型（播放列表、单曲、专辑等）
-  //       //可选值： "song" | "album" | "artist" | "playlist"
-  //       type: 'playlist',
-  //       server: 'netease',
-  //       //描述：MetingApi 中的 id 参数，即资源 ID
-  //       mid: '8233821214',
-  //       // server: 'tencent',
-  //       // mid: '8054843490',
-  //     }, // 不配置该项的话不会出现全局播放器
-  //     aplayer: {
-  //       //是否开启吸底模式
-  //       fixed: false,
-  //       //是否开启迷你模式
-  //       mini: true,
-  //       //是否开启自动播放
-  //       autoplay: true,
-  //       //主题色
-  //       theme: '#186071',
-  //       //描述：设置 lrc 歌词解析模式
-  //       // 可选值： 3 | 1 | 0（0：禁用 lrc 歌词，1：lrc 格式的字符串，3：lrc 文件 url）
-  //       lrcType: 3,
-  //       //是否折叠播放列表
-  //       listFolded: true
-  //     },
-  //     mobile: {
-  //       //不显示封面
-  //       cover: false,
-  //       //不显示歌词
-  //       lrc: false
-  //     },
-  //     defaultCover: 'https://cdn.jsdelivr.net/gh/chansanya/file_store/images/thanks-removebg-preview.png',
-  //   }
-  // ]
+  [
+      //参考: https://moefyit.github.io/moefy-vuepress/packages/meting.html
+    'meting',
+    {
+      //即 Meting 的 api，默认为 @metowolf 提供的 api，你也可以通过自建修改该选项
+      // metingApi: 'https://api.injahow.cn/meting/',
+      meting: {
+        //描述：MetingApi 中的 type 参数，即资源类型（播放列表、单曲、专辑等）
+        //可选值： "song" | "album" | "artist" | "playlist"
+        type: 'playlist',
+        server: 'netease',
+        //描述：MetingApi 中的 id 参数，即资源 ID
+        mid: '8233821214',
+        // server: 'tencent',
+        // mid: '8054843490',
+      }, // 不配置该项的话不会出现全局播放器
+      aplayer: {
+        //是否开启吸底模式
+        fixed: false,
+        //是否开启迷你模式
+        mini: true,
+        //是否开启自动播放
+        autoplay: true,
+        //主题色
+        theme: '#186071',
+        //描述：设置 lrc 歌词解析模式
+        // 可选值： 3 | 1 | 0（0：禁用 lrc 歌词，1：lrc 格式的字符串，3：lrc 文件 url）
+        lrcType: 3,
+        //是否折叠播放列表
+        listFolded: true
+      },
+      mobile: {
+        //不显示封面
+        cover: false,
+        //不显示歌词
+        lrc: false
+      },
+      defaultCover: 'https://cdn.jsdelivr.net/gh/chansanya/file_store/images/thanks-removebg-preview.png',
+    }
+  ]
 ]
