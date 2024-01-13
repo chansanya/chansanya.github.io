@@ -90,18 +90,11 @@ realesrgan-ncnn-vulkan.exe -i tmp_frames -o out_frames -n realesr-animevideov3 -
 ffmpeg -i onepiece_demo.mp4
 ```
 
-#### 合并视频
+#### 合并音频视频
 上面命令得到的帧数填充到 -r 后，以下用**23.98**举例
 ```shell
 ffmpeg -i out_frames/frame%08d.jpg -i onepiece_demo.mp4 -map 0:v:0 -map 1:a:0 -c:a copy -c:v libx264 -r 23.98 -pix_fmt yuv420p output_w_audio.mp4
 ```
- 
-#### 合并音频
-```css
-ffmpeg -r 23.98 -i out_frames/frame%08d.jpg -i onepiece_demo.mp4 -map 0:v:0 -map 1:a:0 -c:a copy -c:v libx264 -r 23.98 -pix_fmt yuv420p output_w_audio.mp4
-```
-
-
 
 
 
