@@ -6,8 +6,6 @@ author:
   name: Yan
   link: https://github.com/chansanya
 sidebar: auto
-sticky: 1
-titleTag: TOP
 categories: 
   - 随笔
 tags: 
