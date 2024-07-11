@@ -5,6 +5,7 @@ module.exports = [
     link: '/knowledge/',
     items: [
       { text: 'JAVA',link:"/java/"},
+      { text: 'Cloudflare',link:"/cloudflare/"},
     ],
   },
   {
