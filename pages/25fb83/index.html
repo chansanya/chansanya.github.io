@@ -3,14 +3,14 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>XML构建 | 烂笔头</title>
+    <title>使用注解实现XML构建与解析 | 烂笔头</title>
     <meta name="generator" content="VuePress 1.9.10">
     <link rel="icon" href="/img/favicon.ico">
     <meta name="description" content="每天多学一点点">
     <meta name="keywords" content="Java,Linux">
     <meta name="theme-color" content="#11a8cd">
     
-    <link rel="preload" href="/assets/css/0.styles.d30c10eb.css" as="style"><link rel="preload" href="/assets/js/app.75fea9d6.js" as="script"><link rel="preload" href="/assets/js/3.5281d18f.js" as="script"><link rel="preload" href="/assets/js/2.467beea9.js" as="script"><link rel="preload" href="/assets/js/63.d0e87704.js" as="script"><link rel="prefetch" href="/assets/js/1.aaf562e9.js"><link rel="prefetch" href="/assets/js/10.3560e44c.js"><link rel="prefetch" href="/assets/js/100.ccbc12e4.js"><link rel="prefetch" href="/assets/js/101.3664f60a.js"><link rel="prefetch" href="/assets/js/102.e4b0f6b9.js"><link rel="prefetch" href="/assets/js/103.aa744fe0.js"><link rel="prefetch" href="/assets/js/104.de03d596.js"><link rel="prefetch" href="/assets/js/105.ff37c8b0.js"><link rel="prefetch" href="/assets/js/106.fde5646a.js"><link rel="prefetch" href="/assets/js/107.1dbdee34.js"><link rel="prefetch" href="/assets/js/108.ccd97bc2.js"><link rel="prefetch" href="/assets/js/109.9d5fcde2.js"><link rel="prefetch" href="/assets/js/11.889f10ac.js"><link rel="prefetch" href="/assets/js/110.2400599e.js"><link rel="prefetch" href="/assets/js/111.4e875952.js"><link rel="prefetch" href="/assets/js/112.0b4c6fc1.js"><link rel="prefetch" href="/assets/js/113.6e82ada6.js"><link rel="prefetch" href="/assets/js/114.32141df8.js"><link rel="prefetch" href="/assets/js/115.31fa2600.js"><link rel="prefetch" href="/assets/js/116.2870e426.js"><link rel="prefetch" href="/assets/js/117.056319a1.js"><link rel="prefetch" href="/assets/js/118.d0ce8b0a.js"><link rel="prefetch" href="/assets/js/119.6be97dc2.js"><link rel="prefetch" href="/assets/js/12.92ddcd6c.js"><link rel="prefetch" href="/assets/js/120.751e9eb5.js"><link rel="prefetch" href="/assets/js/121.4e3859d7.js"><link rel="prefetch" href="/assets/js/122.1c1cac66.js"><link rel="prefetch" href="/assets/js/123.04c21ac8.js"><link rel="prefetch" href="/assets/js/124.7be17988.js"><link rel="prefetch" href="/assets/js/125.98d1f9ae.js"><link rel="prefetch" href="/assets/js/126.f92bfb54.js"><link rel="prefetch" href="/assets/js/127.8a3124ec.js"><link rel="prefetch" href="/assets/js/128.6b51d1e0.js"><link rel="prefetch" href="/assets/js/129.eac0e89e.js"><link rel="prefetch" href="/assets/js/13.bc9c07e3.js"><link rel="prefetch" href="/assets/js/130.091edc6f.js"><link rel="prefetch" href="/assets/js/131.35d076b3.js"><link rel="prefetch" href="/assets/js/14.f18eb13a.js"><link rel="prefetch" href="/assets/js/15.e8abf0f8.js"><link rel="prefetch" href="/assets/js/16.bf024d95.js"><link rel="prefetch" href="/assets/js/17.216358eb.js"><link rel="prefetch" href="/assets/js/18.e112aed0.js"><link rel="prefetch" href="/assets/js/19.47f6218e.js"><link rel="prefetch" href="/assets/js/20.9759af9e.js"><link rel="prefetch" href="/assets/js/21.7fa70cab.js"><link rel="prefetch" href="/assets/js/22.dcd941b2.js"><link rel="prefetch" href="/assets/js/23.38ef7a12.js"><link rel="prefetch" href="/assets/js/24.fbf9a69a.js"><link rel="prefetch" href="/assets/js/25.d549aa6e.js"><link rel="prefetch" href="/assets/js/26.9a0fd0f7.js"><link rel="prefetch" href="/assets/js/27.684a7cc0.js"><link rel="prefetch" href="/assets/js/28.54a3c95d.js"><link rel="prefetch" href="/assets/js/29.4e3812a7.js"><link rel="prefetch" href="/assets/js/30.70511300.js"><link rel="prefetch" href="/assets/js/31.4c63031b.js"><link rel="prefetch" href="/assets/js/32.c99495cc.js"><link rel="prefetch" href="/assets/js/33.3648842f.js"><link rel="prefetch" href="/assets/js/34.4b4f60a0.js"><link rel="prefetch" href="/assets/js/35.35083fd5.js"><link rel="prefetch" href="/assets/js/36.19c40f08.js"><link rel="prefetch" href="/assets/js/37.e7fa8225.js"><link rel="prefetch" href="/assets/js/38.cf9e81f7.js"><link rel="prefetch" href="/assets/js/39.b67eef07.js"><link rel="prefetch" href="/assets/js/4.ccaeeb07.js"><link rel="prefetch" href="/assets/js/40.2b3c84a7.js"><link rel="prefetch" href="/assets/js/41.a6bef218.js"><link rel="prefetch" href="/assets/js/42.bbfec2e6.js"><link rel="prefetch" href="/assets/js/43.c5dc73f2.js"><link rel="prefetch" href="/assets/js/44.bb80e10c.js"><link rel="prefetch" href="/assets/js/45.1db48deb.js"><link rel="prefetch" href="/assets/js/46.f6d17d69.js"><link rel="prefetch" href="/assets/js/47.2e459a92.js"><link rel="prefetch" href="/assets/js/48.5a36364d.js"><link rel="prefetch" href="/assets/js/49.0006dd0c.js"><link rel="prefetch" href="/assets/js/5.97709043.js"><link rel="prefetch" href="/assets/js/50.984d546e.js"><link rel="prefetch" href="/assets/js/51.bea1304f.js"><link rel="prefetch" href="/assets/js/52.acbbed39.js"><link rel="prefetch" href="/assets/js/53.2571bb33.js"><link rel="prefetch" href="/assets/js/54.8d8b8e09.js"><link rel="prefetch" href="/assets/js/55.6f9c3630.js"><link rel="prefetch" href="/assets/js/56.2a76c158.js"><link rel="prefetch" href="/assets/js/57.eda2db3a.js"><link rel="prefetch" href="/assets/js/58.6586faa1.js"><link rel="prefetch" href="/assets/js/59.db7bd79d.js"><link rel="prefetch" href="/assets/js/6.b48e9ab7.js"><link rel="prefetch" href="/assets/js/60.16e86ec2.js"><link rel="prefetch" href="/assets/js/61.fc2e2ecc.js"><link rel="prefetch" href="/assets/js/62.f1a124ed.js"><link rel="prefetch" href="/assets/js/64.f3f82f5e.js"><link rel="prefetch" href="/assets/js/65.c1b02926.js"><link rel="prefetch" href="/assets/js/66.661bef63.js"><link rel="prefetch" href="/assets/js/67.72b47b6b.js"><link rel="prefetch" href="/assets/js/68.3fb9624d.js"><link rel="prefetch" href="/assets/js/69.6ca9f057.js"><link rel="prefetch" href="/assets/js/70.9f793636.js"><link rel="prefetch" href="/assets/js/71.e3eee83f.js"><link rel="prefetch" href="/assets/js/72.5048301e.js"><link rel="prefetch" href="/assets/js/73.5ff65fe3.js"><link rel="prefetch" href="/assets/js/74.6ab47058.js"><link rel="prefetch" href="/assets/js/75.499dee53.js"><link rel="prefetch" href="/assets/js/76.d30fc11c.js"><link rel="prefetch" href="/assets/js/77.b67d50a7.js"><link rel="prefetch" href="/assets/js/78.90e43a92.js"><link rel="prefetch" href="/assets/js/79.8156bfe0.js"><link rel="prefetch" href="/assets/js/80.bc9e3913.js"><link rel="prefetch" href="/assets/js/81.edb7af93.js"><link rel="prefetch" href="/assets/js/82.adee5ee3.js"><link rel="prefetch" href="/assets/js/83.5c194546.js"><link rel="prefetch" href="/assets/js/84.0aa5fafe.js"><link rel="prefetch" href="/assets/js/85.04126750.js"><link rel="prefetch" href="/assets/js/86.784eea88.js"><link rel="prefetch" href="/assets/js/87.7e38cd22.js"><link rel="prefetch" href="/assets/js/88.f6e3fe7b.js"><link rel="prefetch" href="/assets/js/89.f5eb97fc.js"><link rel="prefetch" href="/assets/js/9.47da5159.js"><link rel="prefetch" href="/assets/js/90.59faf5e0.js"><link rel="prefetch" href="/assets/js/91.4fefa4ce.js"><link rel="prefetch" href="/assets/js/92.f6e5fca3.js"><link rel="prefetch" href="/assets/js/93.f38618a5.js"><link rel="prefetch" href="/assets/js/94.828112db.js"><link rel="prefetch" href="/assets/js/95.d8f864cb.js"><link rel="prefetch" href="/assets/js/96.b46e876a.js"><link rel="prefetch" href="/assets/js/97.8acbed82.js"><link rel="prefetch" href="/assets/js/98.292e40b4.js"><link rel="prefetch" href="/assets/js/99.bef588bb.js"><link rel="prefetch" href="/assets/js/vendors~docsearch.c145e1d0.js">
+    <link rel="preload" href="/assets/css/0.styles.d30c10eb.css" as="style"><link rel="preload" href="/assets/js/app.286d8c23.js" as="script"><link rel="preload" href="/assets/js/3.ef6ed4e8.js" as="script"><link rel="preload" href="/assets/js/2.81e831ed.js" as="script"><link rel="preload" href="/assets/js/64.ad836d96.js" as="script"><link rel="prefetch" href="/assets/js/1.89b6fb48.js"><link rel="prefetch" href="/assets/js/10.9d369af2.js"><link rel="prefetch" href="/assets/js/100.d23a945b.js"><link rel="prefetch" href="/assets/js/101.137a9909.js"><link rel="prefetch" href="/assets/js/102.717c5558.js"><link rel="prefetch" href="/assets/js/103.72541307.js"><link rel="prefetch" href="/assets/js/104.41703385.js"><link rel="prefetch" href="/assets/js/105.cecde7ce.js"><link rel="prefetch" href="/assets/js/106.dcea9675.js"><link rel="prefetch" href="/assets/js/107.44829a89.js"><link rel="prefetch" href="/assets/js/108.4b079aea.js"><link rel="prefetch" href="/assets/js/109.fc648d7c.js"><link rel="prefetch" href="/assets/js/11.82c731fa.js"><link rel="prefetch" href="/assets/js/110.58dfa4f9.js"><link rel="prefetch" href="/assets/js/111.76025b5c.js"><link rel="prefetch" href="/assets/js/112.16d3f026.js"><link rel="prefetch" href="/assets/js/113.e39431c0.js"><link rel="prefetch" href="/assets/js/114.e068a1d4.js"><link rel="prefetch" href="/assets/js/115.f6800646.js"><link rel="prefetch" href="/assets/js/116.614e9e95.js"><link rel="prefetch" href="/assets/js/117.626eb0df.js"><link rel="prefetch" href="/assets/js/118.b036403a.js"><link rel="prefetch" href="/assets/js/119.9672605d.js"><link rel="prefetch" href="/assets/js/12.055636a4.js"><link rel="prefetch" href="/assets/js/120.42ed8fad.js"><link rel="prefetch" href="/assets/js/121.cdf830af.js"><link rel="prefetch" href="/assets/js/122.17f155a3.js"><link rel="prefetch" href="/assets/js/123.4199e1fb.js"><link rel="prefetch" href="/assets/js/124.b21b774a.js"><link rel="prefetch" href="/assets/js/125.09cd83b5.js"><link rel="prefetch" href="/assets/js/126.f80b8e36.js"><link rel="prefetch" href="/assets/js/127.7d1049aa.js"><link rel="prefetch" href="/assets/js/128.13385eec.js"><link rel="prefetch" href="/assets/js/129.9580a36a.js"><link rel="prefetch" href="/assets/js/13.4b4df6e9.js"><link rel="prefetch" href="/assets/js/130.b96d3311.js"><link rel="prefetch" href="/assets/js/131.fb9bd12c.js"><link rel="prefetch" href="/assets/js/132.f73f8de1.js"><link rel="prefetch" href="/assets/js/14.81852085.js"><link rel="prefetch" href="/assets/js/15.e8abf0f8.js"><link rel="prefetch" href="/assets/js/16.479260a0.js"><link rel="prefetch" href="/assets/js/17.ff63c8f3.js"><link rel="prefetch" href="/assets/js/18.be82c6ce.js"><link rel="prefetch" href="/assets/js/19.39a0a595.js"><link rel="prefetch" href="/assets/js/20.fa802415.js"><link rel="prefetch" href="/assets/js/21.59dda1a9.js"><link rel="prefetch" href="/assets/js/22.3d699a60.js"><link rel="prefetch" href="/assets/js/23.482fa378.js"><link rel="prefetch" href="/assets/js/24.fbaf4fb8.js"><link rel="prefetch" href="/assets/js/25.5e69cadd.js"><link rel="prefetch" href="/assets/js/26.9a0fd0f7.js"><link rel="prefetch" href="/assets/js/27.e010b0d8.js"><link rel="prefetch" href="/assets/js/28.54a3c95d.js"><link rel="prefetch" href="/assets/js/29.4e3812a7.js"><link rel="prefetch" href="/assets/js/30.70511300.js"><link rel="prefetch" href="/assets/js/31.d9b3a0bf.js"><link rel="prefetch" href="/assets/js/32.c99495cc.js"><link rel="prefetch" href="/assets/js/33.3648842f.js"><link rel="prefetch" href="/assets/js/34.3b2bdfd4.js"><link rel="prefetch" href="/assets/js/35.35083fd5.js"><link rel="prefetch" href="/assets/js/36.19c40f08.js"><link rel="prefetch" href="/assets/js/37.7637de1a.js"><link rel="prefetch" href="/assets/js/38.c9066662.js"><link rel="prefetch" href="/assets/js/39.ada95dcf.js"><link rel="prefetch" href="/assets/js/4.a218046d.js"><link rel="prefetch" href="/assets/js/40.2b3c84a7.js"><link rel="prefetch" href="/assets/js/41.71cd9031.js"><link rel="prefetch" href="/assets/js/42.56f39b93.js"><link rel="prefetch" href="/assets/js/43.a937d4d1.js"><link rel="prefetch" href="/assets/js/44.79f75b5c.js"><link rel="prefetch" href="/assets/js/45.dd47d0f8.js"><link rel="prefetch" href="/assets/js/46.da132fe5.js"><link rel="prefetch" href="/assets/js/47.5b0ed1f7.js"><link rel="prefetch" href="/assets/js/48.7924cfae.js"><link rel="prefetch" href="/assets/js/49.2bb8f8c9.js"><link rel="prefetch" href="/assets/js/5.f8332e6b.js"><link rel="prefetch" href="/assets/js/50.f1e53558.js"><link rel="prefetch" href="/assets/js/51.c58eee58.js"><link rel="prefetch" href="/assets/js/52.89aa3452.js"><link rel="prefetch" href="/assets/js/53.47ba1362.js"><link rel="prefetch" href="/assets/js/54.9e9a14ff.js"><link rel="prefetch" href="/assets/js/55.b119cc90.js"><link rel="prefetch" href="/assets/js/56.04c5bc68.js"><link rel="prefetch" href="/assets/js/57.45f48970.js"><link rel="prefetch" href="/assets/js/58.d9223ef6.js"><link rel="prefetch" href="/assets/js/59.0f71de85.js"><link rel="prefetch" href="/assets/js/6.379a6db9.js"><link rel="prefetch" href="/assets/js/60.a1409c46.js"><link rel="prefetch" href="/assets/js/61.6831a8a6.js"><link rel="prefetch" href="/assets/js/62.a51150b8.js"><link rel="prefetch" href="/assets/js/63.5087a0f0.js"><link rel="prefetch" href="/assets/js/65.4d3f8666.js"><link rel="prefetch" href="/assets/js/66.ca87b68f.js"><link rel="prefetch" href="/assets/js/67.32ec1598.js"><link rel="prefetch" href="/assets/js/68.903cdc80.js"><link rel="prefetch" href="/assets/js/69.5e65ae7b.js"><link rel="prefetch" href="/assets/js/70.afe43ae5.js"><link rel="prefetch" href="/assets/js/71.de2f7ab0.js"><link rel="prefetch" href="/assets/js/72.23c7fc5d.js"><link rel="prefetch" href="/assets/js/73.e24cdf4b.js"><link rel="prefetch" href="/assets/js/74.091b254f.js"><link rel="prefetch" href="/assets/js/75.0c7e80ca.js"><link rel="prefetch" href="/assets/js/76.547ddb5d.js"><link rel="prefetch" href="/assets/js/77.a39b1a34.js"><link rel="prefetch" href="/assets/js/78.b1bd0ffd.js"><link rel="prefetch" href="/assets/js/79.24ea5222.js"><link rel="prefetch" href="/assets/js/80.e2a00799.js"><link rel="prefetch" href="/assets/js/81.ed9e9c0a.js"><link rel="prefetch" href="/assets/js/82.84cf4cac.js"><link rel="prefetch" href="/assets/js/83.eafab675.js"><link rel="prefetch" href="/assets/js/84.69fa038e.js"><link rel="prefetch" href="/assets/js/85.deca1244.js"><link rel="prefetch" href="/assets/js/86.6f2f8271.js"><link rel="prefetch" href="/assets/js/87.a7cdec9b.js"><link rel="prefetch" href="/assets/js/88.758e21ee.js"><link rel="prefetch" href="/assets/js/89.322bbe24.js"><link rel="prefetch" href="/assets/js/9.672b4ca9.js"><link rel="prefetch" href="/assets/js/90.fddd77df.js"><link rel="prefetch" href="/assets/js/91.63ef9461.js"><link rel="prefetch" href="/assets/js/92.2eadf381.js"><link rel="prefetch" href="/assets/js/93.9b98296a.js"><link rel="prefetch" href="/assets/js/94.9df74f1e.js"><link rel="prefetch" href="/assets/js/95.a2bdd37f.js"><link rel="prefetch" href="/assets/js/96.b3150331.js"><link rel="prefetch" href="/assets/js/97.1223da02.js"><link rel="prefetch" href="/assets/js/98.93711ef6.js"><link rel="prefetch" href="/assets/js/99.bf9da97e.js"><link rel="prefetch" href="/assets/js/vendors~docsearch.c145e1d0.js">
     <link rel="stylesheet" href="/assets/css/0.styles.d30c10eb.css">
   </head>
   <body class="theme-mode-light">
@@ -18,22 +18,646 @@
     GitHub
     <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar-hover-trigger"></div> <aside class="sidebar" style="display:none;"><div class="blogger"><img src="/img/heard.png"> <div class="blogger-info"><h3>产彡</h3> <span>起标题太难了</span></div></div> <nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">首页</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="知识库" class="dropdown-title"><a href="/knowledge/" class="link-title">知识库</a> <span class="title" style="display:none;">知识库</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/java/" class="nav-link">JAVA</a></li><li class="dropdown-item"><!----> <a href="/cloudflare/" class="nav-link">Cloudflare</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="学习" class="dropdown-title"><a href="/study/" class="link-title">学习</a> <span class="title" style="display:none;">学习</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/h5/" class="nav-link">H5</a></li></ul></div></div><div class="nav-item"><a href="/about/" class="nav-link">关于</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="索引" class="dropdown-title"><!----> <span class="title" style="display:;">索引</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/categories/" class="nav-link">分类</a></li><li class="dropdown-item"><!----> <a href="/tags/" class="nav-link">标签</a></li><li class="dropdown-item"><!----> <a href="/archives/" class="nav-link">归档</a></li></ul></div></div> <a href="https://github.com/chansanya" target="_blank" rel="noopener noreferrer" class="repo-link">
     GitHub
-    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>java</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading"><span>SpringBoot</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading"><span>SpringSecurity</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading"><span>MybatisPlus</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading"><span>Netty</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading open"><span>sip</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/pages/01ae5a/" class="sidebar-link">GB28181</a></li><li><a href="/pages/796a0e/" class="sidebar-link">GB35114</a></li><li><a href="/pages/45e0e5/" class="sidebar-link">SM2工具类</a></li><li><a href="/pages/f0215e/" class="sidebar-link">SM3工具类</a></li><li><a href="/pages/200594/" class="sidebar-link">证书构建</a></li><li><a href="/pages/25fb83/" aria-current="page" class="active sidebar-link">XML构建</a><ul class="sidebar-sub-headers"></ul></li></ul></section></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading"><span>其他</span> <span class="arrow right"></span></p> <!----></section></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>linux</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>docker</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>redis</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>nginx</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>mysql</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>其他</span> <span class="arrow right"></span></p> <!----></section></li></ul> </aside> <div><main class="page"><div class="theme-vdoing-wrapper "><div class="articleInfo-wrap" data-v-06225672><div class="articleInfo" data-v-06225672><ul class="breadcrumbs" data-v-06225672><li data-v-06225672><a href="/" title="首页" class="iconfont icon-home router-link-active" data-v-06225672></a></li> <li data-v-06225672><a href="/knowledge/#知识库" data-v-06225672>知识库</a></li><li data-v-06225672><a href="/knowledge/#java" data-v-06225672>java</a></li><li data-v-06225672><a href="/knowledge/#sip" data-v-06225672>sip</a></li></ul> <div class="info" data-v-06225672><div title="作者" class="author iconfont icon-touxiang" data-v-06225672><a href="https://github.com/chansanya" target="_blank" title="作者" class="beLink" data-v-06225672>YAN</a></div> <div title="创建时间" class="date iconfont icon-riqi" data-v-06225672><a href="javascript:;" data-v-06225672>2024-07-26</a></div> <!----></div></div></div> <!----> <div class="content-wrapper"><div class="right-menu-wrapper"><div class="right-menu-margin"><div class="right-menu-title">目录</div> <div class="right-menu-content"></div></div></div> <h1><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAABKFJREFUSA3tVl1oFVcQnrMbrak3QUgkya1akpJYcrUtIqW1JvFBE9LiQ5v6JmJpolbMg32rVrhgoYK0QiMY6i9Y6EMaW5D+xFJaTYItIuK2Kr3+BJNwkxBj05sQY3b3nM6cs2dv9t7NT/vQJw/sndk5M/PNzJkzewGerP+pAmy+ON8lLzUJgA8ZYxYIYZmGYRnctDaWvJJAmTtfP1pvXsBCCPP8QFcCaRkZYACgDZFO4stNIcBCajEOlmmC9XpJ9bAGCaPaPmzPl32dvLSVu3BWCTQs0XQQ6g0DYgwLIoAZbBCdW/i+781o1VVlm/410mw4h06Y7bIPHNyWDyL4FHkX03Q8SrzNhZTZriieckWt7cL6MM85YcLpsi/7O9/iXFT6MswI0DmmpkSaJ0qLxFIm3+i1THHB3zmBH3PYx9CcykcLOeQVVa7QtdxTgQgEleX2AjHYfwA+2ddV77ruGoJUbhGDI09YSNXyMpUt5ylOzxgbUmtOp7NmbNt8v3arjTBfYELmLUV+M+nSawNNAUqpT3ClJWg5I3BLT+cGW/DXNGCa6tx1aakCGEigArTn4TDIPdrXXYKCZNrHLMCOEPvHBlLQ99s9eHB7EB6NTki73CVPQ2F5MSx/uRQixfmq7rK0wYD8w8E905bnPDfwoWs/rfv93NWN/ZfvwsLIU7A09gxECyISeGJkHAau98L97tuw7NXnoPyNF8FcYGLGKsOs0mN3OEyec9esGW/ZEl945dTP34wlR2FZVQWU1q0Cw8Tr7p+hgLLNL0FPxx/Q35mA8aEUrH6nCgwEl0tn7wUiZYJnNRh6DK4UH/k0lfyrsBKdPVv/AriGIQcEDQZ65LBAGe2Rzui9Ybjz7XUppz1/uKBbyVPGkN3ZAeC6hr0x7Nr38N5+EqkoOm17xpoqR9ohQF55ERSvr4Dkr3chNfC3DMzGJlNBElW8w9nsGQvhNGIzDkXzCg8cLK951xHsFBlTJspJNi3ZFIMF2AeDV3q8DNOB+YHi6QTrChDIWDBRi5U5f+ZMfJLu3ccrqxtdxk4SKH336LFxSmkqefwU5T8fhdSdQf9IVKD6aNiwI/hnmcAZ91isYMJIaCUCx9W098+LgruikeTqzqqxKPUwqJyCPJiyemVVZBOijDGjD38Os0jOiSPL1z3SPjXNANbiNPXAdzTfukjjuknNBbyz3nwgTd3AVFqUJ5hpHlq9MveLnWwttUfoygBmvVjuikxND3znrhsELnZk7k+OjIGxeNEkomyLVta0xxn+HZhjBc4YZ/AFjHjz9u3xRZl2BN4aq9nFwWh16IrQ1aHHEd3j1+4/dB9OtH4e29A2H1DyHQRmOSfQZ1Fy7MHBTGB6J/Djq6p3OxyO2cB+4Car7v/o3GXgfAkj23+x9ID1Teoamo/SXcbvSf2PX7Vc8DdCmE1vN9di+32P9/5YR3vLnhCVGUWBjEkr3yh4H8v9CzmsbdhzOKzsJKM90iFdaTMjRPhGVsakRvOaRidljo6H6G7j+ctrJpsP+4COhDIl0La2+FS4+5mlocBaXY5QnGZysIBYoeSsl5qQzrSj/cgNrfuEzlWBfwA+EjrZyWUvpAAAAABJRU5ErkJggg==">XML构建<!----></h1> <!----> <div class="theme-vdoing-content content__default"><p>基于 <code>om4j</code> 实现XML构建与解析
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>java</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading"><span>SpringBoot</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading"><span>SpringSecurity</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading"><span>MybatisPlus</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading"><span>Netty</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading open"><span>sip</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/pages/f627ab/" class="sidebar-link">国标SIP理解</a></li><li><a href="/pages/01ae5a/" class="sidebar-link">GB28181</a></li><li><a href="/pages/796a0e/" class="sidebar-link">GB35114</a></li><li><a href="/pages/45e0e5/" class="sidebar-link">SM2工具类</a></li><li><a href="/pages/f0215e/" class="sidebar-link">SM3工具类</a></li><li><a href="/pages/200594/" class="sidebar-link">证书构建</a></li><li><a href="/pages/25fb83/" aria-current="page" class="active sidebar-link">使用注解实现XML构建与解析</a><ul class="sidebar-sub-headers"></ul></li></ul></section></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading"><span>其他</span> <span class="arrow right"></span></p> <!----></section></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>linux</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>docker</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>redis</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>nginx</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>mysql</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>其他</span> <span class="arrow right"></span></p> <!----></section></li></ul> </aside> <div><main class="page"><div class="theme-vdoing-wrapper "><div class="articleInfo-wrap" data-v-06225672><div class="articleInfo" data-v-06225672><ul class="breadcrumbs" data-v-06225672><li data-v-06225672><a href="/" title="首页" class="iconfont icon-home router-link-active" data-v-06225672></a></li> <li data-v-06225672><a href="/knowledge/#知识库" data-v-06225672>知识库</a></li><li data-v-06225672><a href="/knowledge/#java" data-v-06225672>java</a></li><li data-v-06225672><a href="/knowledge/#sip" data-v-06225672>sip</a></li></ul> <div class="info" data-v-06225672><div title="作者" class="author iconfont icon-touxiang" data-v-06225672><a href="https://github.com/chansanya" target="_blank" title="作者" class="beLink" data-v-06225672>YAN</a></div> <div title="创建时间" class="date iconfont icon-riqi" data-v-06225672><a href="javascript:;" data-v-06225672>2024-07-26</a></div> <!----></div></div></div> <!----> <div class="content-wrapper"><div class="right-menu-wrapper"><div class="right-menu-margin"><div class="right-menu-title">目录</div> <div class="right-menu-content"></div></div></div> <h1><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAABGpJREFUSA3tVVtoXFUU3fvOI53UlmCaKIFmwEhsE7QK0ipFEdHEKpXaZGrp15SINsXUWvBDpBgQRKi0+KKoFeJHfZA+ED9KKoIU2gYD9UejTW4rVIzm0VSTziPzuNu1z507dibTTjL4U/DAzLn3nL3X2o91ziX6f9wMFdh6Jvbm9nNSV0msViVO6tN1Rm7NMu2OpeJ9lWBUTDxrJbYTS0hInuwciu9eLHlFxCLCZEk3MegsJmZ5K/JD6t7FkFdEvGUo1g7qJoG3MHImqRIn8/nzY1K9UPKKiJmtnUqHVE3Gbuay6vJE/N2FEmuxFjW2nUuE0yQXRRxLiTUAzs36zhZvOXJPdX850EVnnLZkB8prodQoM5JGj7Xk2mvC7JB8tG04Ef5PiXtG0UtxupRQSfTnBoCy554x18yJHI6I+G5Eru4LHmPJZEQsrvPUbMiA8G/WgMK7w7I+ez7++o2ANfbrjvaOl1tFMs+htG3IrZH9/hDX1Pr8Tc0UvH8tcX29KzAgIGcEkINyW5BF9x891hw6VYqgJHEk0huccS7vh3C6gTiODL+26huuBtbct8eZnqLML8PkxGYpuPZBqtqwkSjgc4mB5gbgig5i+y0UDK35LMxXisn9xQtK+nd26gTIHsHe/oblK/b29fUmN/8Y+9jAQrnBp56m1LcDlDp9irKTExSKduXJVWSqdBMA08pEJnEIOB3FPPMybu/oeV8zFeYN3xx576Q6RH+VmplE4ncQV5v+5rzSoyOU7PuEAg8g803PwBJ0CExno/jcMbN8tONYeOmHiuUNryvm3fRUy4tMPVLdAGkUhNWuggGrJcXPv+ouCjz0MKUHz1J2/E8IC9nqTabcxgaBYM0hPhD5Y65FsbxRQKxCQrDjDctW7PUM3HuZunFyifSAqEfuzCp48Il24luWUWZoyJCaPR82jE0+kFA643wRFVni4RYSq3ohJO2pZ7B5dO4xkDWbEpossJPLSrPjYID8rS2UHTlvyNxqIGsg674XJJ7vnh5L7PNwC4hh2sjCI96mzszOTpxLF0T7l88Yz7lAuK6OnL8gXLOnTvpzSb22YG8W7us3jSebFHeeqnXRG1vt+MoUM84LQIBmMsCTAcOauTh0T0l0neQK7m2bLMt2mGxU3HYssS0J2cdv5wljlPsrIuZLAG/2DOZIXgCYT8uMGZN+e2kSirfxZOPCsC0f24nTZzspnVn9VePS1Z5vubmAGGXG8ZFno9Hel0yfA5ZPhF7Dh972BQJ2qCpgH67lmWtBYbvk6sz02wjky2vXyz0XErP/kFB619js1BtwfOV4OPRqOQBjy3Qbk18vigUPPSD5ceHnwck7W9bhAqZdd7SuG7w4/P2F/GaJh8c7e9qgow+Q7cGBo+98WsLkuktFqiZabtXuQTu/Y5ETbR0v7tNSFnvrmu6pjdoan2KjMu8q/Hmj1EfCO2ZGfEIbIXKUlw8qaX9/b2oeSJmFksSeT/Fn0V3nSypChh4Gjh74ybO9aeZ/AN2dwciu2/MhAAAAAElFTkSuQmCC">使用注解实现XML构建与解析<!----></h1> <!----> <div class="theme-vdoing-content content__default"><p>基于 <code>dom4j</code> 实现XML构建与解析
 </p> <h3 id="导入依赖"><a href="#导入依赖" class="header-anchor">#</a> 导入依赖</h3> <div class="language-xml extra-class"><pre class="language-xml"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dependency</span><span class="token punctuation">&gt;</span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>groupId</span><span class="token punctuation">&gt;</span></span>org.dom4j<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>groupId</span><span class="token punctuation">&gt;</span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>artifactId</span><span class="token punctuation">&gt;</span></span>dom4j<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>artifactId</span><span class="token punctuation">&gt;</span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>version</span><span class="token punctuation">&gt;</span></span>2.1.3<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>version</span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dependency</span><span class="token punctuation">&gt;</span></span>
+<span class="token comment">&lt;!-- XPATH 支持--&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dependency</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>groupId</span><span class="token punctuation">&gt;</span></span>jaxen<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>groupId</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>artifactId</span><span class="token punctuation">&gt;</span></span>jaxen<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>artifactId</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>version</span><span class="token punctuation">&gt;</span></span>1.2.0<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>version</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dependency</span><span class="token punctuation">&gt;</span></span>
 
-</code></pre></div><h3 id="示例代码"><a href="#示例代码" class="header-anchor">#</a> 示例代码</h3></div></div> <!----> <div class="page-edit"><!----> <!----> <div class="last-updated"><span class="prefix">上次更新:</span> <span class="time">2024/07/26, 09:15:18</span></div></div> <div class="page-nav-wapper"><div class="page-nav-centre-wrap"><a href="/pages/200594/" class="page-nav-centre page-nav-centre-prev"><div class="tooltip">证书构建</div></a> <a href="/pages/d3af77/" class="page-nav-centre page-nav-centre-next"><div class="tooltip">MDC 使用</div></a></div> <div class="page-nav"><p class="inner"><span class="prev">
+</code></pre></div><h3 id="测试代码"><a href="#测试代码" class="header-anchor">#</a> 测试代码</h3> <details class="custom-block details"><summary>点击查看</summary> <div class="language-java extra-class"><pre class="language-java"><code>
+<span class="token annotation punctuation">@Getter</span>
+<span class="token annotation punctuation">@Setter</span>
+<span class="token annotation punctuation">@ToString</span>
+<span class="token annotation punctuation">@SIP</span><span class="token punctuation">(</span><span class="token string">&quot;Control&quot;</span><span class="token punctuation">)</span>
+<span class="token annotation punctuation">@Accessors</span><span class="token punctuation">(</span>chain <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">)</span>
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Control</span> <span class="token keyword">extends</span> <span class="token class-name">XMLMessage</span> <span class="token punctuation">{</span>
+
+    <span class="token keyword">public</span> <span class="token class-name">Control</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+
+    <span class="token punctuation">}</span>
+
+    <span class="token annotation punctuation">@SIP</span><span class="token punctuation">(</span><span class="token string">&quot;SN&quot;</span><span class="token punctuation">)</span>
+    <span class="token keyword">private</span>  <span class="token class-name">String</span> sn<span class="token punctuation">;</span>
+
+    <span class="token annotation punctuation">@SIP</span><span class="token punctuation">(</span><span class="token string">&quot;DeviceID&quot;</span><span class="token punctuation">)</span>
+    <span class="token keyword">private</span>  <span class="token class-name">String</span> deviceId<span class="token punctuation">;</span>
+
+    <span class="token annotation punctuation">@SIP</span><span class="token punctuation">(</span><span class="token string">&quot;PTZCmd&quot;</span><span class="token punctuation">)</span>
+    <span class="token keyword">private</span>  <span class="token class-name">String</span> ptzCmd<span class="token punctuation">;</span>
+
+    <span class="token annotation punctuation">@SIP</span><span class="token punctuation">(</span><span class="token string">&quot;Info&quot;</span><span class="token punctuation">)</span>
+    <span class="token keyword">private</span> <span class="token class-name">List</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">Control<span class="token punctuation">.</span>Info</span><span class="token punctuation">&gt;</span></span> info<span class="token punctuation">;</span>
+
+
+    <span class="token annotation punctuation">@Data</span>
+    <span class="token annotation punctuation">@EqualsAndHashCode</span><span class="token punctuation">(</span>callSuper <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">)</span>
+    <span class="token annotation punctuation">@Accessors</span><span class="token punctuation">(</span>chain <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">)</span>
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">class</span>  <span class="token class-name">Info</span> <span class="token keyword">extends</span> <span class="token class-name">ChildNode</span> <span class="token punctuation">{</span>
+
+        <span class="token annotation punctuation">@SIP</span><span class="token punctuation">(</span><span class="token string">&quot;ControlPriority&quot;</span><span class="token punctuation">)</span>
+        <span class="token keyword">private</span> <span class="token class-name">String</span> controlPriority<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token annotation punctuation">@Override</span>
+    <span class="token keyword">public</span> <span class="token class-name">String</span> <span class="token function">toXML</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token class-name">SimpleXmlHelper</span><span class="token punctuation">.</span><span class="token function">toXml</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+<span class="token punctuation">}</span>
+
+</code></pre></div><div class="language-java extra-class"><pre class="language-java"><code>
+<span class="token keyword">private</span> <span class="token keyword">static</span> <span class="token class-name">XMLMessage</span> <span class="token function">getControl</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token class-name">Control</span> message <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Control</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    message<span class="token punctuation">.</span><span class="token function">setSn</span><span class="token punctuation">(</span><span class="token string">&quot;11&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    message<span class="token punctuation">.</span><span class="token function">setDeviceId</span><span class="token punctuation">(</span><span class="token string">&quot;64010000041310000345&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    message<span class="token punctuation">.</span><span class="token function">setPtzCmd</span><span class="token punctuation">(</span><span class="token string">&quot;A50F4D1000001021&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token class-name">List</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">Control<span class="token punctuation">.</span>Info</span><span class="token punctuation">&gt;</span></span> list <span class="token operator">=</span> <span class="token class-name">Arrays</span><span class="token punctuation">.</span><span class="token function">asList</span><span class="token punctuation">(</span>
+            <span class="token keyword">new</span> <span class="token class-name">Control<span class="token punctuation">.</span>Info</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">setControlPriority</span><span class="token punctuation">(</span><span class="token string">&quot;1&quot;</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+            <span class="token keyword">new</span> <span class="token class-name">Control<span class="token punctuation">.</span>Info</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">setControlPriority</span><span class="token punctuation">(</span><span class="token string">&quot;2&quot;</span><span class="token punctuation">)</span>
+    <span class="token punctuation">)</span><span class="token punctuation">;</span>
+    message<span class="token punctuation">.</span><span class="token function">setInfo</span><span class="token punctuation">(</span>list<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">return</span> message<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">private</span> <span class="token keyword">static</span> <span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">T</span> <span class="token keyword">extends</span> <span class="token class-name">XMLMessage</span><span class="token punctuation">&gt;</span></span> <span class="token class-name">T</span> <span class="token function">convert</span><span class="token punctuation">(</span><span class="token class-name">XMLMessage</span> message<span class="token punctuation">,</span> <span class="token class-name">Class</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">T</span><span class="token punctuation">&gt;</span></span> cla<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token class-name">String</span> xml <span class="token operator">=</span> <span class="token class-name">SimpleXmlHelper</span><span class="token punctuation">.</span><span class="token function">toXml</span><span class="token punctuation">(</span>message<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>xml<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">return</span> <span class="token class-name">SimpleXmlHelper</span><span class="token punctuation">.</span><span class="token function">xlmToBeam</span><span class="token punctuation">(</span>xml<span class="token punctuation">,</span> cla<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+</code></pre></div><div class="language-java extra-class"><pre class="language-java"><code>    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token class-name">Control</span> message <span class="token operator">=</span> <span class="token function">convert</span><span class="token punctuation">(</span><span class="token function">getControl</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token class-name">Control</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>message<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+</code></pre></div></details> <h3 id="具体实现"><a href="#具体实现" class="header-anchor">#</a> 具体实现</h3> <details class="custom-block details"><summary>展开详情</summary> <h4 id="建立相关注解"><a href="#建立相关注解" class="header-anchor">#</a> 建立相关注解</h4> <div class="language-java extra-class"><pre class="language-java"><code><span class="token annotation punctuation">@Target</span><span class="token punctuation">(</span><span class="token punctuation">{</span><span class="token class-name">ElementType</span><span class="token punctuation">.</span><span class="token constant">FIELD</span><span class="token punctuation">,</span> <span class="token class-name">ElementType</span><span class="token punctuation">.</span><span class="token constant">TYPE</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token annotation punctuation">@Retention</span><span class="token punctuation">(</span><span class="token class-name">RetentionPolicy</span><span class="token punctuation">.</span><span class="token constant">RUNTIME</span><span class="token punctuation">)</span>
+<span class="token keyword">public</span> <span class="token annotation punctuation">@interface</span> <span class="token constant">XML</span> <span class="token punctuation">{</span>
+
+    <span class="token class-name">String</span> <span class="token function">value</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token keyword">boolean</span> <span class="token function">isChild</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token keyword">default</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><div class="language-java extra-class"><pre class="language-java"><code><span class="token annotation punctuation">@Repeatable</span><span class="token punctuation">(</span><span class="token class-name">SIPAttrs</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">)</span>
+<span class="token annotation punctuation">@Retention</span><span class="token punctuation">(</span><span class="token class-name">RetentionPolicy</span><span class="token punctuation">.</span><span class="token constant">RUNTIME</span><span class="token punctuation">)</span>
+<span class="token keyword">public</span> <span class="token annotation punctuation">@interface</span> <span class="token class-name">XMLAttr</span> <span class="token punctuation">{</span>
+
+    <span class="token class-name">String</span> <span class="token function">value</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token class-name">String</span> <span class="token function">field</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><div class="language-java extra-class"><pre class="language-java"><code><span class="token annotation punctuation">@Target</span><span class="token punctuation">(</span><span class="token punctuation">{</span><span class="token class-name">ElementType</span><span class="token punctuation">.</span><span class="token constant">FIELD</span><span class="token punctuation">,</span> <span class="token class-name">ElementType</span><span class="token punctuation">.</span><span class="token constant">TYPE</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token annotation punctuation">@Retention</span><span class="token punctuation">(</span><span class="token class-name">RetentionPolicy</span><span class="token punctuation">.</span><span class="token constant">RUNTIME</span><span class="token punctuation">)</span>
+<span class="token keyword">public</span> <span class="token annotation punctuation">@interface</span> <span class="token class-name">XMLAttrs</span> <span class="token punctuation">{</span>
+
+    <span class="token class-name">XMLAttr</span> <span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token function">value</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+</code></pre></div><div class="language-java extra-class"><pre class="language-java"><code><span class="token annotation punctuation">@Getter</span>
+<span class="token keyword">public</span> <span class="token keyword">abstract</span> <span class="token keyword">class</span> <span class="token class-name">XMLMessage</span> <span class="token punctuation">{</span>
+    
+    <span class="token keyword">public</span> <span class="token keyword">abstract</span> <span class="token class-name">String</span> <span class="token function">toXML</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>子节点标识</p> <div class="language-java extra-class"><pre class="language-java"><code><span class="token keyword">public</span> <span class="token keyword">abstract</span> <span class="token keyword">class</span> <span class="token class-name">ChildNode</span> <span class="token punctuation">{</span>
+    
+<span class="token punctuation">}</span>
+
+</code></pre></div><div class="language-java extra-class"><pre class="language-java"><code>
+<span class="token annotation punctuation">@Getter</span>
+<span class="token annotation punctuation">@Slf4j</span>
+<span class="token annotation punctuation">@SuppressWarnings</span><span class="token punctuation">(</span><span class="token string">&quot;unused&quot;</span><span class="token punctuation">)</span>
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">SimpleXmlHelper</span> <span class="token punctuation">{</span>
+
+    <span class="token keyword">private</span>  <span class="token keyword">final</span>  <span class="token class-name">Document</span> document<span class="token punctuation">;</span>
+
+    <span class="token keyword">private</span> <span class="token keyword">final</span> <span class="token class-name">Element</span> rootElement<span class="token punctuation">;</span>
+
+    <span class="token keyword">private</span> <span class="token class-name">SimpleXmlHelper</span><span class="token punctuation">(</span><span class="token class-name">String</span> rootName<span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>document <span class="token operator">=</span> <span class="token function">createDocument</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>rootElement <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">addElement</span><span class="token punctuation">(</span>rootName<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token comment">/**
+     * 构建一个 SimpleXmlHelper
+     * @param rootName 根节点名字
+     * @return SimpleXmlHelper
+     */</span>
+    <span class="token keyword">public</span> <span class="token keyword">static</span>  <span class="token class-name">SimpleXmlHelper</span> <span class="token function">build</span><span class="token punctuation">(</span><span class="token class-name">String</span> rootName<span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token keyword">new</span> <span class="token class-name">SimpleXmlHelper</span><span class="token punctuation">(</span>rootName<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token comment">/**
+     * 将对象转换为XML
+     * @param obg 转换数据
+     * @return   XML STR
+     */</span>
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">T</span> <span class="token keyword">extends</span> <span class="token class-name">XMLMessage</span><span class="token punctuation">&gt;</span></span> <span class="token class-name">String</span> <span class="token function">toXml</span><span class="token punctuation">(</span><span class="token class-name">T</span> obg<span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token class-name">SimpleXmlHelper</span> simpleXmlHelper <span class="token operator">=</span>  <span class="token function">build</span><span class="token punctuation">(</span><span class="token function">getRootElementNameByClass</span><span class="token punctuation">(</span>obg<span class="token punctuation">.</span><span class="token function">getClass</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        simpleXmlHelper<span class="token punctuation">.</span><span class="token function">fullElement</span><span class="token punctuation">(</span>simpleXmlHelper<span class="token punctuation">.</span><span class="token function">getRootElement</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span> obg<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">return</span> simpleXmlHelper<span class="token punctuation">.</span><span class="token function">writeXml</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token comment">/**
+     * XLM  To Bean
+     * @param xml xml
+     * @param cla 需要构建的数据类型
+     * @param &lt;T&gt;  数据泛型
+     */</span>
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">T</span> <span class="token keyword">extends</span> <span class="token class-name">XMLMessage</span><span class="token punctuation">&gt;</span></span> <span class="token class-name">T</span> <span class="token function">xlmToBeam</span><span class="token punctuation">(</span><span class="token class-name">String</span> xml<span class="token punctuation">,</span><span class="token class-name">Class</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">T</span><span class="token punctuation">&gt;</span></span> cla<span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token class-name">Element</span> rootElement <span class="token operator">=</span> <span class="token class-name">SimpleXmlHelper</span><span class="token punctuation">.</span><span class="token function">getRoot</span><span class="token punctuation">(</span>xml<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">return</span>  <span class="token function">elementToBean</span><span class="token punctuation">(</span>rootElement<span class="token punctuation">,</span>cla<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+
+    <span class="token comment">/**
+     * 填充完整Element
+     * @param current 当前 Element
+     * @param t 填充数据
+     * @param &lt;T&gt;  填充数据泛型
+     */</span>
+    <span class="token annotation punctuation">@SuppressWarnings</span><span class="token punctuation">(</span><span class="token string">&quot;unchecked&quot;</span><span class="token punctuation">)</span>
+    <span class="token keyword">private</span>  <span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">T</span><span class="token punctuation">&gt;</span></span> <span class="token keyword">void</span> <span class="token function">fullElement</span><span class="token punctuation">(</span><span class="token class-name">Element</span> current<span class="token punctuation">,</span> <span class="token class-name">T</span> t<span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token class-name">Field</span> field <span class="token operator">:</span> <span class="token class-name">ReflectUtil</span><span class="token punctuation">.</span><span class="token function">getFields</span><span class="token punctuation">(</span>t<span class="token punctuation">.</span><span class="token function">getClass</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token class-name">String</span> name <span class="token operator">=</span> <span class="token function">getNodeNameByField</span><span class="token punctuation">(</span>field<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token keyword">null</span> <span class="token operator">==</span> name<span class="token punctuation">)</span><span class="token punctuation">{</span>
+                log<span class="token punctuation">.</span><span class="token function">warn</span><span class="token punctuation">(</span><span class="token string">&quot;当前跳过属性[{}]，如果需要此属性请添加@SIP注解&quot;</span><span class="token punctuation">,</span>field<span class="token punctuation">.</span><span class="token function">getName</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                <span class="token keyword">continue</span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span>
+            <span class="token class-name">Class</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token operator">?</span><span class="token punctuation">&gt;</span></span> type <span class="token operator">=</span> field<span class="token punctuation">.</span><span class="token function">getType</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token comment">//得到当前字段值</span>
+            <span class="token class-name">Object</span> fieldValue <span class="token operator">=</span> <span class="token class-name">ReflectUtil</span><span class="token punctuation">.</span><span class="token function">getFieldValue</span><span class="token punctuation">(</span>t<span class="token punctuation">,</span> field<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token comment">//得到字段所注解的属性</span>
+            <span class="token class-name">List</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">Attribute</span><span class="token punctuation">&gt;</span></span> attrs <span class="token operator">=</span> <span class="token function">getAttrs</span><span class="token punctuation">(</span>field<span class="token punctuation">,</span> t<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token class-name">Collection</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">.</span><span class="token function">isAssignableFrom</span><span class="token punctuation">(</span>type<span class="token punctuation">)</span> <span class="token punctuation">)</span><span class="token punctuation">{</span>
+                <span class="token class-name">List</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">Object</span><span class="token punctuation">&gt;</span></span> valList <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token class-name">List</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">Object</span><span class="token punctuation">&gt;</span></span><span class="token punctuation">)</span> fieldValue<span class="token punctuation">;</span>
+                <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token class-name">CollUtil</span><span class="token punctuation">.</span><span class="token function">isEmpty</span><span class="token punctuation">(</span>valList<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+                    <span class="token keyword">continue</span><span class="token punctuation">;</span>
+                <span class="token punctuation">}</span>
+                <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token class-name">Object</span> val <span class="token operator">:</span> valList<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                    <span class="token function">genElementByFieldName</span><span class="token punctuation">(</span>current<span class="token punctuation">,</span> val<span class="token punctuation">,</span> name<span class="token punctuation">,</span>attrs<span class="token punctuation">)</span><span class="token punctuation">;</span>
+                <span class="token punctuation">}</span>
+            <span class="token punctuation">}</span><span class="token keyword">else</span> <span class="token punctuation">{</span>
+                <span class="token function">genElementByFieldName</span><span class="token punctuation">(</span>current<span class="token punctuation">,</span> fieldValue<span class="token punctuation">,</span> name<span class="token punctuation">,</span>attrs<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token comment">/**
+     * 构建一个名字为 tagName 并携带 attrs 属性的节点
+     * @param current 当前 Element
+     * @param val 当前属性值
+     * @param tagName 当前xml tag名字
+     * @param attrs 节点属性
+     */</span>
+    <span class="token keyword">private</span> <span class="token keyword">void</span> <span class="token function">genElementByFieldName</span><span class="token punctuation">(</span><span class="token class-name">Element</span> current<span class="token punctuation">,</span> <span class="token class-name">Object</span> val<span class="token punctuation">,</span> <span class="token class-name">String</span> tagName<span class="token punctuation">,</span><span class="token class-name">List</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">Attribute</span><span class="token punctuation">&gt;</span></span> attrs<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">if</span><span class="token punctuation">(</span>val <span class="token keyword">instanceof</span> <span class="token class-name">ChildNode</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+            <span class="token class-name">Element</span> child <span class="token operator">=</span> current<span class="token punctuation">.</span><span class="token function">addElement</span><span class="token punctuation">(</span>tagName<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            child<span class="token punctuation">.</span><span class="token function">setAttributes</span><span class="token punctuation">(</span>attrs<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token function">fullElement</span><span class="token punctuation">(</span>child<span class="token punctuation">,</span> val<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span><span class="token keyword">else</span> <span class="token punctuation">{</span>
+            <span class="token class-name">Element</span> child<span class="token punctuation">;</span>
+            <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token keyword">null</span> <span class="token operator">==</span> val<span class="token punctuation">)</span><span class="token punctuation">{</span>
+                child <span class="token operator">=</span> <span class="token function">createNullNextElement</span><span class="token punctuation">(</span>current<span class="token punctuation">,</span> tagName<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span><span class="token keyword">else</span> <span class="token punctuation">{</span>
+                child <span class="token operator">=</span> <span class="token function">createNextElement</span><span class="token punctuation">(</span>current<span class="token punctuation">,</span> tagName<span class="token punctuation">,</span> val<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span>
+            child<span class="token punctuation">.</span><span class="token function">setAttributes</span><span class="token punctuation">(</span>attrs<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token comment">/**
+     * Element To Bean
+     * @param currentNode 当前XML节点
+     * @param cla 需要构建的数据类型
+     * @param &lt;T&gt;  数据泛型
+     */</span>
+    <span class="token annotation punctuation">@SuppressWarnings</span><span class="token punctuation">(</span><span class="token string">&quot;unchecked&quot;</span><span class="token punctuation">)</span>
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">T</span><span class="token punctuation">&gt;</span></span> <span class="token class-name">T</span> <span class="token function">elementToBean</span><span class="token punctuation">(</span><span class="token class-name">Node</span> currentNode<span class="token punctuation">,</span><span class="token class-name">Class</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">T</span><span class="token punctuation">&gt;</span></span> cla<span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token keyword">try</span> <span class="token punctuation">{</span>
+            <span class="token class-name">T</span> obg <span class="token operator">=</span> cla<span class="token punctuation">.</span><span class="token function">newInstance</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token comment">//得到根节点名字</span>
+            <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token class-name">Field</span> field <span class="token operator">:</span> <span class="token class-name">ReflectUtil</span><span class="token punctuation">.</span><span class="token function">getFields</span><span class="token punctuation">(</span>obg<span class="token punctuation">.</span><span class="token function">getClass</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                <span class="token class-name">String</span> name <span class="token operator">=</span> <span class="token function">getNodeNameByField</span><span class="token punctuation">(</span>field<span class="token punctuation">)</span><span class="token punctuation">;</span>
+                <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token keyword">null</span> <span class="token operator">==</span> name<span class="token punctuation">)</span><span class="token punctuation">{</span>
+                    <span class="token keyword">continue</span><span class="token punctuation">;</span>
+                <span class="token punctuation">}</span>
+                <span class="token class-name">Class</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token operator">?</span><span class="token punctuation">&gt;</span></span> type <span class="token operator">=</span> field<span class="token punctuation">.</span><span class="token function">getType</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+                <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token class-name">Collection</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">.</span><span class="token function">isAssignableFrom</span><span class="token punctuation">(</span>type<span class="token punctuation">)</span> <span class="token punctuation">)</span><span class="token punctuation">{</span>
+                    <span class="token class-name">List</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">Node</span><span class="token punctuation">&gt;</span></span> nodes <span class="token operator">=</span> <span class="token function">findNodes</span><span class="token punctuation">(</span>currentNode<span class="token punctuation">,</span> <span class="token function">genAllXpath</span><span class="token punctuation">(</span>name<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                    <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token class-name">CollUtil</span><span class="token punctuation">.</span><span class="token function">isEmpty</span><span class="token punctuation">(</span>nodes<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+                        <span class="token keyword">continue</span><span class="token punctuation">;</span>
+                    <span class="token punctuation">}</span>
+                    <span class="token class-name">ArrayList</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">Object</span><span class="token punctuation">&gt;</span></span> listVal <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ArrayList</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token punctuation">&gt;</span></span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token class-name">Node</span> node <span class="token operator">:</span> nodes<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                        <span class="token comment">//转换为list泛型</span>
+                        <span class="token class-name">Type</span> actualTypeArgument <span class="token operator">=</span> <span class="token function">getActualTypeArgument</span><span class="token punctuation">(</span>field<span class="token punctuation">)</span><span class="token punctuation">;</span>
+                        <span class="token class-name">T</span> item <span class="token operator">=</span> <span class="token function">elementToBean</span><span class="token punctuation">(</span>node<span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token class-name">Class</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">T</span><span class="token punctuation">&gt;</span></span><span class="token punctuation">)</span> actualTypeArgument<span class="token punctuation">)</span><span class="token punctuation">;</span>
+                        listVal<span class="token punctuation">.</span><span class="token function">add</span><span class="token punctuation">(</span>item<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+                    <span class="token punctuation">}</span>
+                    <span class="token class-name">ReflectUtil</span><span class="token punctuation">.</span><span class="token function">setFieldValue</span><span class="token punctuation">(</span>obg<span class="token punctuation">,</span>field<span class="token punctuation">,</span>listVal<span class="token punctuation">)</span><span class="token punctuation">;</span>
+                <span class="token punctuation">}</span><span class="token keyword">else</span> <span class="token punctuation">{</span>
+                    <span class="token class-name">Node</span> nextNode <span class="token operator">=</span> <span class="token function">findNode</span><span class="token punctuation">(</span>currentNode<span class="token punctuation">,</span> name<span class="token punctuation">)</span><span class="token punctuation">;</span>
+                    <span class="token comment">//判断 type 是不是 ChildNode的子类</span>
+                    <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token class-name">ChildNode</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">.</span><span class="token function">isAssignableFrom</span><span class="token punctuation">(</span>type<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+                        <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token keyword">null</span> <span class="token operator">==</span> nextNode<span class="token punctuation">)</span><span class="token punctuation">{</span>
+                            <span class="token keyword">continue</span><span class="token punctuation">;</span>
+                        <span class="token punctuation">}</span>
+                        <span class="token class-name">Object</span> childOng <span class="token operator">=</span> <span class="token function">elementToBean</span><span class="token punctuation">(</span>nextNode<span class="token punctuation">,</span> type<span class="token punctuation">)</span><span class="token punctuation">;</span>
+                        <span class="token class-name">ReflectUtil</span><span class="token punctuation">.</span><span class="token function">setFieldValue</span><span class="token punctuation">(</span>obg<span class="token punctuation">,</span>field<span class="token punctuation">,</span>childOng<span class="token punctuation">)</span><span class="token punctuation">;</span>
+                    <span class="token punctuation">}</span><span class="token keyword">else</span> <span class="token punctuation">{</span>
+                        <span class="token comment">//设置对象值</span>
+                        <span class="token class-name">ReflectUtil</span><span class="token punctuation">.</span><span class="token function">setFieldValue</span><span class="token punctuation">(</span>obg<span class="token punctuation">,</span>field<span class="token punctuation">,</span> <span class="token function">getNodeVal</span><span class="token punctuation">(</span>nextNode<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                    <span class="token punctuation">}</span>
+
+                <span class="token punctuation">}</span>
+            <span class="token punctuation">}</span>
+            <span class="token keyword">return</span> obg<span class="token punctuation">;</span>
+        <span class="token punctuation">}</span> <span class="token keyword">catch</span> <span class="token punctuation">(</span><span class="token class-name">Exception</span> e<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            log<span class="token punctuation">.</span><span class="token function">error</span><span class="token punctuation">(</span><span class="token string">&quot; ogb to xml 失败&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token keyword">throw</span> <span class="token keyword">new</span> <span class="token class-name">RuntimeException</span><span class="token punctuation">(</span>e<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">private</span> <span class="token keyword">static</span> <span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">T</span><span class="token punctuation">&gt;</span></span> <span class="token keyword">void</span> <span class="token function">setObgAttrs</span><span class="token punctuation">(</span><span class="token class-name">Node</span> node<span class="token punctuation">,</span> <span class="token class-name">T</span> obg<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token class-name">List</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">Attribute</span><span class="token punctuation">&gt;</span></span> elementAttrs <span class="token operator">=</span> <span class="token function">getElementAttrs</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token class-name">DefaultElement</span><span class="token punctuation">)</span>node<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token class-name">Attribute</span> attribute <span class="token operator">:</span> elementAttrs<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token class-name">String</span> attrName <span class="token operator">=</span> attribute<span class="token punctuation">.</span><span class="token function">getName</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token class-name">String</span> attrVal<span class="token operator">=</span> attribute<span class="token punctuation">.</span><span class="token function">getValue</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token class-name">Field</span> attrField <span class="token operator">=</span> <span class="token class-name">ReflectUtil</span><span class="token punctuation">.</span><span class="token function">getField</span><span class="token punctuation">(</span>obg<span class="token punctuation">.</span><span class="token function">getClass</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span> attrName<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token keyword">null</span> <span class="token operator">!=</span>attrField<span class="token punctuation">)</span><span class="token punctuation">{</span>
+                <span class="token class-name">ReflectUtil</span><span class="token punctuation">.</span><span class="token function">setFieldValue</span><span class="token punctuation">(</span>obg<span class="token punctuation">,</span>attrField<span class="token punctuation">,</span>attrVal<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token comment">/**
+     * 得到field 注解属性
+     * @param field field
+     * @param obg 当前对象
+     * @return    List&lt;Attribute&gt;
+     */</span>
+    <span class="token keyword">private</span> <span class="token keyword">static</span> <span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">T</span><span class="token punctuation">&gt;</span></span> <span class="token class-name">List</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">Attribute</span><span class="token punctuation">&gt;</span></span> <span class="token function">getAttrs</span><span class="token punctuation">(</span><span class="token class-name">Field</span> field<span class="token punctuation">,</span> <span class="token class-name">T</span> obg<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token class-name">SIPAttr</span><span class="token punctuation">[</span><span class="token punctuation">]</span> attrs <span class="token operator">=</span> <span class="token function">getSipAttrs</span><span class="token punctuation">(</span>field<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token class-name">Map</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">String</span><span class="token punctuation">,</span> <span class="token class-name">String</span><span class="token punctuation">&gt;</span></span> attrMap <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">HashMap</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token punctuation">&gt;</span></span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+        <span class="token class-name">List</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">Attribute</span><span class="token punctuation">&gt;</span></span> attributes <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ArrayList</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token punctuation">&gt;</span></span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token number">0</span> <span class="token operator">&lt;</span> attrs<span class="token punctuation">.</span>length<span class="token punctuation">)</span><span class="token punctuation">{</span>
+            <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token class-name">SIPAttr</span> attr <span class="token operator">:</span> attrs<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                <span class="token class-name">String</span> join <span class="token operator">=</span> attr<span class="token punctuation">.</span><span class="token function">field</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                <span class="token class-name">Object</span> attrVal <span class="token operator">=</span> <span class="token class-name">ReflectUtil</span><span class="token punctuation">.</span><span class="token function">getFieldValue</span><span class="token punctuation">(</span>obg<span class="token punctuation">,</span> join<span class="token punctuation">)</span><span class="token punctuation">;</span>
+                <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token keyword">null</span> <span class="token operator">==</span> attrVal<span class="token punctuation">)</span><span class="token punctuation">{</span>
+                    <span class="token keyword">continue</span><span class="token punctuation">;</span>
+                <span class="token punctuation">}</span>
+
+                attributes<span class="token punctuation">.</span><span class="token function">add</span><span class="token punctuation">(</span>
+                        <span class="token keyword">new</span> <span class="token class-name">DefaultAttribute</span><span class="token punctuation">(</span>attr<span class="token punctuation">.</span><span class="token function">value</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span><span class="token class-name">String</span><span class="token punctuation">.</span><span class="token function">valueOf</span><span class="token punctuation">(</span>attrVal<span class="token punctuation">)</span><span class="token punctuation">)</span>
+                <span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+        <span class="token keyword">return</span> attributes<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token comment">/**
+     * 得到 SIPAttr 注解
+     * @param field 当前字段
+     * @return SIPAttr[]
+     */</span>
+    <span class="token keyword">private</span> <span class="token keyword">static</span> <span class="token class-name">SIPAttr</span><span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token function">getSipAttrs</span><span class="token punctuation">(</span><span class="token class-name">Field</span> field<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+       <span class="token keyword">return</span> field<span class="token punctuation">.</span><span class="token function">getDeclaredAnnotationsByType</span><span class="token punctuation">(</span><span class="token class-name">SIPAttr</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+
+    <span class="token keyword">public</span> <span class="token keyword">static</span>  <span class="token class-name">Type</span>   <span class="token function">getActualTypeArgument</span><span class="token punctuation">(</span><span class="token class-name">Field</span> field<span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token class-name">Type</span> genericType <span class="token operator">=</span> field<span class="token punctuation">.</span><span class="token function">getGenericType</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>genericType <span class="token keyword">instanceof</span> <span class="token class-name">ParameterizedType</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token class-name">ParameterizedType</span> parameterizedType <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token class-name">ParameterizedType</span><span class="token punctuation">)</span> genericType<span class="token punctuation">;</span>
+
+            <span class="token comment">// 获取泛型类型的实际类型参数</span>
+            <span class="token class-name">Type</span><span class="token punctuation">[</span><span class="token punctuation">]</span> actualTypeArguments <span class="token operator">=</span> parameterizedType<span class="token punctuation">.</span><span class="token function">getActualTypeArguments</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token keyword">return</span> actualTypeArguments<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+            log<span class="token punctuation">.</span><span class="token function">error</span><span class="token punctuation">(</span><span class="token string">&quot;请为:{}属性指定泛型&quot;</span><span class="token punctuation">,</span>field<span class="token punctuation">.</span><span class="token function">getName</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token keyword">throw</span> <span class="token keyword">new</span> <span class="token class-name">RuntimeException</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">.</span><span class="token function">format</span><span class="token punctuation">(</span><span class="token string">&quot;请为:%s属性指定泛型&quot;</span><span class="token punctuation">,</span>field<span class="token punctuation">.</span><span class="token function">getName</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token comment">/**
+     * 得到XML 根节点类型
+     * @param xml xml
+     * @return  根节点名字
+     */</span>
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token class-name">String</span> <span class="token function">getXlmRootNodeName</span><span class="token punctuation">(</span><span class="token class-name">String</span> xml<span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token keyword">return</span>  <span class="token function">getNodeName</span><span class="token punctuation">(</span><span class="token class-name">SimpleXmlHelper</span><span class="token punctuation">.</span><span class="token function">getRoot</span><span class="token punctuation">(</span>xml<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token comment">/**
+     * 得到根节点名字 (class中 {@link SIP} 的值)
+     * @param cls class
+     * @return 根节点名字
+     * @param &lt;T&gt; T
+     */</span>
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">T</span><span class="token punctuation">&gt;</span></span> <span class="token class-name">String</span> <span class="token function">getRootElementNameByClass</span><span class="token punctuation">(</span><span class="token class-name">Class</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">T</span><span class="token punctuation">&gt;</span></span> cls<span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token class-name">SIP</span> cla <span class="token operator">=</span> cls<span class="token punctuation">.</span><span class="token function">getAnnotation</span><span class="token punctuation">(</span><span class="token constant">SIP</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">if</span><span class="token punctuation">(</span>cla <span class="token operator">==</span> <span class="token keyword">null</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+            log<span class="token punctuation">.</span><span class="token function">warn</span><span class="token punctuation">(</span><span class="token string">&quot;请给{}添加@SIP注解&quot;</span><span class="token punctuation">,</span>cls<span class="token punctuation">.</span><span class="token function">getName</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token keyword">throw</span> <span class="token keyword">new</span> <span class="token class-name">RuntimeException</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">.</span><span class="token function">format</span><span class="token punctuation">(</span><span class="token string">&quot;请给%s添加@SIP注解&quot;</span><span class="token punctuation">,</span>cls<span class="token punctuation">.</span><span class="token function">getName</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+        <span class="token keyword">return</span> cla<span class="token punctuation">.</span><span class="token function">value</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token comment">/**
+     * 得到根节点名字 (class中 {@link SIP} 的值)
+     * @param field class
+     * @return 根节点名字
+     */</span>
+    <span class="token keyword">public</span> <span class="token keyword">static</span>  <span class="token class-name">String</span> <span class="token function">getNodeNameByField</span><span class="token punctuation">(</span><span class="token class-name">Field</span> field<span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token class-name">SIP</span> annotation <span class="token operator">=</span> field<span class="token punctuation">.</span><span class="token function">getAnnotation</span><span class="token punctuation">(</span><span class="token constant">SIP</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token keyword">null</span> <span class="token operator">==</span> annotation<span class="token punctuation">)</span><span class="token punctuation">{</span>
+            <span class="token keyword">return</span> <span class="token keyword">null</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+        <span class="token keyword">return</span> annotation<span class="token punctuation">.</span><span class="token function">value</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token comment">/**
+     * 创建 根Element  的下级Element
+     * @param key Element name
+     * @return 下级Element
+     */</span>
+    <span class="token keyword">public</span>  <span class="token class-name">Element</span> <span class="token function">createRootNextElement</span><span class="token punctuation">(</span><span class="token class-name">String</span> key<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token function">createRootNextElement</span><span class="token punctuation">(</span>key<span class="token punctuation">,</span><span class="token keyword">null</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token comment">/**
+     * 创建 根Element  的下级Element,并设置值
+     * @param key Element name
+     * @return 下级Element
+     */</span>
+    <span class="token keyword">public</span>  <span class="token class-name">Element</span> <span class="token function">createRootNextElement</span><span class="token punctuation">(</span><span class="token class-name">String</span> key<span class="token punctuation">,</span><span class="token class-name">Map</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">String</span><span class="token punctuation">,</span><span class="token class-name">String</span><span class="token punctuation">&gt;</span></span> nodes<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token function">createNextElement</span><span class="token punctuation">(</span>rootElement<span class="token punctuation">,</span>key<span class="token punctuation">,</span>nodes<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token comment">/**
+     * 创建 指定Element  的下级Element
+     * @param key Element name
+     * @return 下级Element
+     */</span>
+    <span class="token keyword">public</span>  <span class="token class-name">Element</span> <span class="token function">createNextElement</span><span class="token punctuation">(</span><span class="token class-name">Element</span> element<span class="token punctuation">,</span> <span class="token class-name">String</span> key<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> element<span class="token punctuation">.</span><span class="token function">addElement</span><span class="token punctuation">(</span>key<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token comment">/**
+     * 创建 指定Element  的下级Element,并设置值
+     * @param key Element name
+     * @param nodes nodes 节点值key val形式
+     * @return 下级Element
+     */</span>
+    <span class="token keyword">public</span>  <span class="token class-name">Element</span> <span class="token function">createNextElement</span><span class="token punctuation">(</span><span class="token class-name">Element</span> element<span class="token punctuation">,</span> <span class="token class-name">String</span> key<span class="token punctuation">,</span> <span class="token class-name">Map</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">String</span><span class="token punctuation">,</span><span class="token class-name">String</span><span class="token punctuation">&gt;</span></span> nodes<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token class-name">Element</span> current <span class="token operator">=</span> <span class="token function">createNextElement</span><span class="token punctuation">(</span>element<span class="token punctuation">,</span>key<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token keyword">null</span> <span class="token operator">==</span> nodes<span class="token punctuation">)</span><span class="token punctuation">{</span>
+            <span class="token keyword">return</span> current<span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+        nodes<span class="token punctuation">.</span><span class="token function">forEach</span><span class="token punctuation">(</span><span class="token punctuation">(</span>k<span class="token punctuation">,</span>v<span class="token punctuation">)</span><span class="token operator">-&gt;</span> current<span class="token punctuation">.</span><span class="token function">addElement</span><span class="token punctuation">(</span>k<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">setText</span><span class="token punctuation">(</span>v<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">return</span> current<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token comment">/**
+     * 创建 指定Element  的下级Element,并设置空值
+     * @param key Element name
+     * @param val val 节点值
+     * @return 下级Element
+     */</span>
+    <span class="token annotation punctuation">@SuppressWarnings</span><span class="token punctuation">(</span><span class="token string">&quot;all&quot;</span><span class="token punctuation">)</span>
+    <span class="token keyword">public</span>  <span class="token class-name">Element</span> <span class="token function">createNullNextElement</span><span class="token punctuation">(</span><span class="token class-name">Element</span> element<span class="token punctuation">,</span> <span class="token class-name">String</span> key<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token function">createNextElement</span><span class="token punctuation">(</span>element<span class="token punctuation">,</span>key<span class="token punctuation">,</span> <span class="token class-name">Arrays</span><span class="token punctuation">.</span><span class="token function">asList</span><span class="token punctuation">(</span><span class="token string">&quot;&quot;</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token comment">/**
+     * 创建 指定Element  的下级Element,并设置值
+     * @param key Element name
+     * @param val val 节点值
+     * @return 下级Element
+     */</span>
+    <span class="token annotation punctuation">@SuppressWarnings</span><span class="token punctuation">(</span><span class="token string">&quot;all&quot;</span><span class="token punctuation">)</span>
+    <span class="token keyword">public</span>  <span class="token class-name">Element</span> <span class="token function">createNextElement</span><span class="token punctuation">(</span><span class="token class-name">Element</span> element<span class="token punctuation">,</span> <span class="token class-name">String</span> key<span class="token punctuation">,</span> <span class="token class-name">Object</span> <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>val<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token function">createNextElement</span><span class="token punctuation">(</span>element<span class="token punctuation">,</span>key<span class="token punctuation">,</span> <span class="token class-name">Arrays</span><span class="token punctuation">.</span><span class="token function">asList</span><span class="token punctuation">(</span>val<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token comment">/**
+     * 创建 指定Element  的下级Element,并设置值
+     * @param key Element name
+     * @param val val 节点值
+     * @return 下级Element
+     */</span>
+    <span class="token keyword">public</span>  <span class="token class-name">Element</span> <span class="token function">createNextElement</span><span class="token punctuation">(</span><span class="token class-name">Element</span> element<span class="token punctuation">,</span> <span class="token class-name">String</span> key<span class="token punctuation">,</span> <span class="token class-name">List</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">Object</span><span class="token punctuation">&gt;</span></span> val<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token class-name">Element</span> current <span class="token operator">=</span> <span class="token function">createNextElement</span><span class="token punctuation">(</span>element<span class="token punctuation">,</span>key<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        val<span class="token punctuation">.</span><span class="token function">stream</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">map</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token operator">::</span><span class="token function">valueOf</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">forEach</span><span class="token punctuation">(</span>current<span class="token operator">::</span><span class="token function">addText</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">return</span> current<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token comment">/**
+     * 根节点下添加 k,v
+     * @param key  key
+     * @param val val
+     */</span>
+    <span class="token keyword">public</span>  <span class="token keyword">void</span> <span class="token function">appendRoot</span><span class="token punctuation">(</span><span class="token class-name">String</span> key<span class="token punctuation">,</span><span class="token class-name">String</span> val<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token function">setElementNodeVal</span><span class="token punctuation">(</span>rootElement<span class="token punctuation">,</span>key<span class="token punctuation">,</span>val<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+
+    <span class="token comment">/**
+     * 指定 current 下添加 k,v
+     * @param current  当前current
+     * @param key  key
+     * @param val val
+     */</span>
+    <span class="token keyword">public</span>  <span class="token keyword">void</span> <span class="token function">setElementNodeVal</span><span class="token punctuation">(</span><span class="token class-name">Element</span> current<span class="token punctuation">,</span> <span class="token class-name">String</span> key<span class="token punctuation">,</span> <span class="token class-name">String</span> val<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token comment">//        Element element = current.addElement(key);</span>
+        <span class="token class-name">Element</span> element <span class="token operator">=</span> <span class="token function">createNextElement</span><span class="token punctuation">(</span>current<span class="token punctuation">,</span>key<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token keyword">null</span><span class="token operator">!=</span>val <span class="token operator">&amp;&amp;</span> <span class="token operator">!</span>val<span class="token punctuation">.</span><span class="token function">isEmpty</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+            element<span class="token punctuation">.</span><span class="token function">setText</span><span class="token punctuation">(</span>val<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+
+
+    <span class="token comment">/**
+     * 写出 XML
+     * @return XML
+     */</span>
+    <span class="token keyword">public</span> <span class="token class-name">String</span> <span class="token function">writeXml</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">try</span><span class="token punctuation">{</span>
+            <span class="token class-name">StringWriter</span> content <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">StringWriter</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token class-name">OutputFormat</span> format <span class="token operator">=</span> <span class="token class-name">OutputFormat</span><span class="token punctuation">.</span><span class="token function">createPrettyPrint</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token class-name">XMLWriter</span> writer <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">XMLWriter</span><span class="token punctuation">(</span>content<span class="token punctuation">,</span> format<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            writer<span class="token punctuation">.</span><span class="token function">write</span><span class="token punctuation">(</span>document<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            writer<span class="token punctuation">.</span><span class="token function">close</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token keyword">return</span>  content<span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span> <span class="token keyword">catch</span> <span class="token punctuation">(</span><span class="token class-name">IOException</span> e<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token keyword">throw</span>  <span class="token keyword">new</span> <span class="token class-name">RuntimeException</span><span class="token punctuation">(</span><span class="token string">&quot;生成XML错误&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token comment">/**
+     * 得到 List&lt;Element&gt;  需要判空
+     * @param element Element
+     * @param name name
+     * @return 获取到的 List&lt;Element&gt;
+     */</span>
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token class-name">List</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">Element</span><span class="token punctuation">&gt;</span></span> <span class="token function">findElements</span><span class="token punctuation">(</span><span class="token class-name">Element</span> element<span class="token punctuation">,</span> <span class="token class-name">String</span> name<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span>  element<span class="token punctuation">.</span><span class="token function">elements</span><span class="token punctuation">(</span>name<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token comment">/**
+     * 得到 Element Attrs
+     * @param element Element
+     * @return 获取到的 Element
+     */</span>
+    <span class="token keyword">public</span> <span class="token keyword">static</span>  <span class="token class-name">List</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">Attribute</span><span class="token punctuation">&gt;</span></span>  <span class="token function">getElementAttrs</span><span class="token punctuation">(</span><span class="token class-name">DefaultElement</span> element<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+       <span class="token keyword">return</span> element<span class="token punctuation">.</span><span class="token function">attributes</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token comment">/**
+     * 得到 Element  需要判空
+     * @param element Element
+     * @param name name
+     * @return 获取到的 Element
+     */</span>
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token class-name">Element</span> <span class="token function">findElement</span><span class="token punctuation">(</span><span class="token class-name">Element</span> element<span class="token punctuation">,</span> <span class="token class-name">String</span> name<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span>  element<span class="token punctuation">.</span><span class="token function">element</span><span class="token punctuation">(</span>name<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token comment">/**
+     * 得到 Element
+     * @param element Element
+     * @param name name
+     * @return Element 内容
+     */</span>
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token class-name">String</span> <span class="token function">findElementVal</span><span class="token punctuation">(</span><span class="token class-name">Element</span> element<span class="token punctuation">,</span> <span class="token class-name">String</span> name<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token class-name">Element</span> elm <span class="token operator">=</span> element<span class="token punctuation">.</span><span class="token function">element</span><span class="token punctuation">(</span>name<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token keyword">null</span> <span class="token operator">==</span> elm<span class="token punctuation">)</span><span class="token punctuation">{</span>
+            <span class="token keyword">return</span> <span class="token keyword">null</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+        <span class="token keyword">return</span> elm<span class="token punctuation">.</span><span class="token function">getText</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token class-name">String</span> <span class="token function">genAllXpath</span><span class="token punctuation">(</span><span class="token class-name">String</span> xpath<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token string">&quot;//&quot;</span><span class="token operator">+</span>xpath<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token comment">/**
+     * 得到 Nodes  需要判空
+     * @param node node
+     * @param xpath xpath
+     * @return 获取到的 List&lt;Node&gt;
+     */</span>
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token class-name">List</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">Node</span><span class="token punctuation">&gt;</span></span> <span class="token function">findNodes</span><span class="token punctuation">(</span><span class="token class-name">Node</span> node<span class="token punctuation">,</span> <span class="token class-name">String</span> xpath<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token class-name">XPath</span> userXPath <span class="token operator">=</span> node<span class="token punctuation">.</span><span class="token function">createXPath</span><span class="token punctuation">(</span>xpath<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">return</span>  userXPath<span class="token punctuation">.</span><span class="token function">selectNodes</span><span class="token punctuation">(</span>node<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token comment">/**
+     * 得到 Node  需要判空
+     * @param node 当前 node
+     * @param xpath xpath
+     * @return 获取到的 Node
+     */</span>
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token class-name">Node</span> <span class="token function">findNode</span><span class="token punctuation">(</span><span class="token class-name">Node</span> node<span class="token punctuation">,</span> <span class="token class-name">String</span> xpath<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token class-name">XPath</span> userXPath <span class="token operator">=</span> node<span class="token punctuation">.</span><span class="token function">createXPath</span><span class="token punctuation">(</span>xpath<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">return</span>  userXPath<span class="token punctuation">.</span><span class="token function">selectSingleNode</span><span class="token punctuation">(</span>node<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token comment">/**
+     * 得到 Node  需要判空
+     * @param node 当前Node
+     * @param xpath xpath
+     * @return Node内容
+     */</span>
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token class-name">String</span> <span class="token function">findNodeVal</span><span class="token punctuation">(</span><span class="token class-name">Node</span> node<span class="token punctuation">,</span> <span class="token class-name">String</span> xpath<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token class-name">XPath</span> userXPath <span class="token operator">=</span> node<span class="token punctuation">.</span><span class="token function">createXPath</span><span class="token punctuation">(</span>xpath<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token class-name">Node</span> selectNode <span class="token operator">=</span> userXPath<span class="token punctuation">.</span><span class="token function">selectSingleNode</span><span class="token punctuation">(</span>node<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token keyword">null</span> <span class="token operator">==</span> selectNode<span class="token punctuation">)</span><span class="token punctuation">{</span>
+            <span class="token keyword">return</span>  <span class="token keyword">null</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+        <span class="token keyword">return</span>  selectNode<span class="token punctuation">.</span><span class="token function">getText</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token comment">/**
+     * 得到 Node 名字
+     * */</span>
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token class-name">String</span> <span class="token function">getNodeName</span><span class="token punctuation">(</span><span class="token class-name">Node</span> node<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span>  node<span class="token punctuation">.</span><span class="token function">getName</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token comment">/**
+     * 得到 Node 值
+     * */</span>
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token class-name">String</span> <span class="token function">getNodeVal</span><span class="token punctuation">(</span><span class="token class-name">Node</span> node<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token keyword">null</span> <span class="token operator">==</span> node<span class="token punctuation">)</span><span class="token punctuation">{</span>
+            <span class="token keyword">return</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+        <span class="token keyword">return</span>  node<span class="token punctuation">.</span><span class="token function">getText</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+
+    <span class="token comment">/**
+     * 读取XML
+     * @param xml xml内容
+     * @return  Document
+     */</span>
+    <span class="token keyword">public</span>  <span class="token keyword">static</span> <span class="token class-name">Document</span> <span class="token function">read</span><span class="token punctuation">(</span><span class="token class-name">String</span> xml<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">try</span> <span class="token punctuation">{</span>
+            <span class="token class-name">SAXReader</span> reader <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">SAXReader</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token keyword">return</span> reader<span class="token punctuation">.</span><span class="token function">read</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">StringReader</span><span class="token punctuation">(</span>xml<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span> <span class="token keyword">catch</span> <span class="token punctuation">(</span><span class="token class-name">Exception</span> e<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token keyword">throw</span> <span class="token keyword">new</span> <span class="token class-name">RuntimeException</span><span class="token punctuation">(</span><span class="token string">&quot;读取XML失败&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token comment">/**
+     * 得到根节点
+     * @param document document
+     * @return  Element
+     */</span>
+    <span class="token keyword">public</span>  <span class="token keyword">static</span> <span class="token class-name">Element</span> <span class="token function">getRoot</span><span class="token punctuation">(</span><span class="token class-name">Document</span> document<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">try</span> <span class="token punctuation">{</span>
+            <span class="token keyword">return</span> document<span class="token punctuation">.</span><span class="token function">getRootElement</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span> <span class="token keyword">catch</span> <span class="token punctuation">(</span><span class="token class-name">Exception</span> e<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token keyword">throw</span> <span class="token keyword">new</span> <span class="token class-name">RuntimeException</span><span class="token punctuation">(</span><span class="token string">&quot;读取XML失败&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token comment">/**
+     * 得到根节点
+     * @param xml xml内容
+     * @return  Element
+     */</span>
+    <span class="token keyword">public</span>  <span class="token keyword">static</span> <span class="token class-name">Element</span> <span class="token function">getRoot</span><span class="token punctuation">(</span><span class="token class-name">String</span> xml<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">try</span> <span class="token punctuation">{</span>
+            <span class="token keyword">return</span> <span class="token function">read</span><span class="token punctuation">(</span>xml<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">getRootElement</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span> <span class="token keyword">catch</span> <span class="token punctuation">(</span><span class="token class-name">Exception</span> e<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token keyword">throw</span> <span class="token keyword">new</span> <span class="token class-name">RuntimeException</span><span class="token punctuation">(</span><span class="token string">&quot;读取XML失败&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+    
+<span class="token punctuation">}</span>
+
+</code></pre></div></details></div></div> <!----> <div class="page-edit"><!----> <!----> <div class="last-updated"><span class="prefix">上次更新:</span> <span class="time">2024/07/26, 09:47:44</span></div></div> <div class="page-nav-wapper"><div class="page-nav-centre-wrap"><a href="/pages/200594/" class="page-nav-centre page-nav-centre-prev"><div class="tooltip">证书构建</div></a> <a href="/pages/d3af77/" class="page-nav-centre page-nav-centre-next"><div class="tooltip">MDC 使用</div></a></div> <div class="page-nav"><p class="inner"><span class="prev">
         ←
         <a href="/pages/200594/" class="prev">证书构建</a></span> <span class="next"><a href="/pages/d3af77/">MDC 使用</a>→
-      </span></p></div></div></div> <div class="article-list"><div class="article-title"><a href="/archives" class="iconfont icon-bi">最近更新</a></div> <div class="article-wrapper"><dl><dd>01</dd> <dt><a href="/pages/200594/"><div>
+      </span></p></div></div></div> <div class="article-list"><div class="article-title"><a href="/archives" class="iconfont icon-bi">最近更新</a></div> <div class="article-wrapper"><dl><dd>01</dd> <dt><a href="/pages/f627ab/"><div>
+            国标SIP理解
+            <!----></div></a> <span class="date">07-26</span></dt></dl><dl><dd>02</dd> <dt><a href="/pages/200594/"><div>
             证书构建
-            <!----></div></a> <span class="date">07-26</span></dt></dl><dl><dd>02</dd> <dt><a href="/pages/f0215e/"><div>
+            <!----></div></a> <span class="date">07-26</span></dt></dl><dl><dd>03</dd> <dt><a href="/pages/f0215e/"><div>
             SM3工具类
-            <!----></div></a> <span class="date">07-26</span></dt></dl><dl><dd>03</dd> <dt><a href="/pages/45e0e5/"><div>
-            SM2工具类
             <!----></div></a> <span class="date">07-26</span></dt></dl> <dl><dd></dd> <dt><a href="/archives" class="more">更多文章&gt;</a></dt></dl></div></div></main></div> <div class="footer"><div class="icons"><a href="mailto:984038622@qq.com" title="发邮件" target="_blank" class="iconfont icon-youjian"></a><a href="https://github.com/chansanya" title="GitHub" target="_blank" class="iconfont icon-github"></a><a href="https://music.163.com/#/playlist?id=755597173" title="听音乐" target="_blank" class="iconfont icon-erji"></a></div> 
   Theme by
   <a href="https://github.com/xugaoyi/vuepress-theme-vdoing" target="_blank" title="本站主题">Vdoing</a> 
@@ -47,6 +671,6 @@
         </li><li class="iconfont icon-yuedu">
           阅读模式
         </li></ul></div></div> <div class="body-bg" style="background:url() center center / cover no-repeat;opacity:0.5;"></div> <!----> <!----></div><div class="global-ui"></div></div>
-    <script src="/assets/js/app.75fea9d6.js" defer></script><script src="/assets/js/3.5281d18f.js" defer></script><script src="/assets/js/2.467beea9.js" defer></script><script src="/assets/js/63.d0e87704.js" defer></script>
+    <script src="/assets/js/app.286d8c23.js" defer></script><script src="/assets/js/3.ef6ed4e8.js" defer></script><script src="/assets/js/2.81e831ed.js" defer></script><script src="/assets/js/64.ad836d96.js" defer></script>
   </body>
 </html>
