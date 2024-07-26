@@ -1,8 +1,8 @@
 ---
 home: true
 # heroImage: /img/heard.png
-heroText: YAN
-tagline: 这次来找什么呀！
+heroText: 烂笔头
+tagline: 学会记录！
 bannerBg: none
 
 features:
