@@ -1,12 +1,12 @@
 
 <h1 style="text-align: center">Yan's Blog</h1>
 
-基于 vuepress-theme-vdoing 主题的博客
+基于 vuepress-theme-vdoing 主题的笔记本
 
 
 
 
-<h2 style="text-align: center" >博客美化技巧</h2>
+<h2 style="text-align: center" >美化技巧</h2>
 
 
 
