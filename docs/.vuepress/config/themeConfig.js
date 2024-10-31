@@ -80,7 +80,7 @@ module.exports = {
     // avatar: 'https://avatars.githubusercontent.com/u/47585031?v=4',
     avatar: '/img/heard.png',
     name: '产彡',
-    slogan: '起标题太难了',
+    slogan: '你渴望力量嘛？',
   },
 
   // 社交图标 (显示于博主信息栏和页脚栏。内置图标：https://doc.xugaoyi.com/pages/a20ce8/#social)

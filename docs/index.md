@@ -2,7 +2,7 @@
 home: true
 # heroImage: /img/heard.png
 heroText: 葵花宝典
-tagline: 学会记录！
+tagline: 欲练此功。。。
 bannerBg: none
 
 features:
