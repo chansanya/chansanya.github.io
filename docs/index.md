@@ -1,7 +1,7 @@
 ---
 home: true
 # heroImage: /img/heard.png
-heroText: 烂笔头
+heroText: 葵花宝典
 tagline: 学会记录！
 bannerBg: none
 
