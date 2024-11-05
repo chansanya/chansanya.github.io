@@ -32,9 +32,8 @@ module.exports = {
   // body背景大图，默认无。 单张图片 String | 多张图片 Array, 多张图片时每隔15秒换一张。
   bodyBgImg: [
       // '/img/bg/bg1.jpg'
-    'https://cdn.jsdelivr.net/gh/chansanya/file_store/images/blog/background/bg1.jpg',
-    // 'https://cdn.jsdelivr.net/gh/chansanya/file_store/images/blog/background/bg2.png',
-    // 'https://cdn.jsdelivr.net/gh/chansanya/file_store/images/blog/background/bg6.jpg',
+    'https://picx.10085.fun/rest/blog/bg1.jpg',
+    // 'https://cdn.jsdelivr.net/gh/chansanya/file_store/images/blog/background/bg1.jpg',
   ],
   // body背景图透明度，选值 0 ~ 1.0, 默认0.5
   bodyBgImgOpacity: 0.9,
@@ -79,29 +78,28 @@ module.exports = {
   blogger: {
     // avatar: 'https://avatars.githubusercontent.com/u/47585031?v=4',
     avatar: '/img/heard.png',
-    name: '产彡',
-    slogan: '你渴望力量嘛？',
+    name: 'YAN',
+    slogan: '我要偷偷记录...',
   },
-
   // 社交图标 (显示于博主信息栏和页脚栏。内置图标：https://doc.xugaoyi.com/pages/a20ce8/#social)
   social: {
     // iconfontCssFile: '//at.alicdn.com/t/xxx.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自己添加。阿里图片库：https://www.iconfont.cn/
     icons: [
-      {
-        iconClass: 'icon-youjian',
-        title: '发邮件',
-        link: 'mailto:984038622@qq.com',
-      },
-      {
-        iconClass: 'icon-github',
-        title: 'GitHub',
-        link: 'https://github.com/chansanya',
-      },
-      {
-        iconClass: 'icon-erji',
-        title: '听音乐',
-        link: 'https://music.163.com/#/playlist?id=755597173',
-      },
+      // {
+      //   iconClass: 'icon-youjian',
+      //   title: '发邮件',
+      //   link: 'mailto:984038622@qq.com',
+      // },
+      // {
+      //   iconClass: 'icon-github',
+      //   title: 'GitHub',
+      //   link: 'https://github.com/chansanya',
+      // },
+      // {
+      //   iconClass: 'icon-erji',
+      //   title: '听音乐',
+      //   link: 'https://music.163.com/#/playlist?id=755597173',
+      // },
     ],
   },
 
@@ -109,7 +107,7 @@ module.exports = {
   footer: {
     createYear: 2022, // 博客创建年份
     copyrightInfo:
-      '产彡 | <a href="https://github.com/chansanya/blog/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息、备案信息等，支持a标签或换行标签</br>
+      'YAN | <a href="https://github.com/chansanya/blog/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息、备案信息等，支持a标签或换行标签</br>
   },
 
   // 扩展自动生成front-matter。（当md文件的front-matter不存在相应的字段时将自动添加。不会覆盖已有的数据。）

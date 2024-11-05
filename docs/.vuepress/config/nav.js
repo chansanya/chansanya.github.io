@@ -14,12 +14,16 @@ module.exports = [
     items: [
       // { text: 'python',link:"/python/"},
       // { text: 'vue',link:"/vue/"},
-      { text: 'H5',link:"/h5/"},
+      { text: '学完再改一遍UI',link:"/h5/"},
     ],
   },
+  // {
+  //   text: '关于',
+  //   link: '/about/',
+  // },
   {
-    text: '关于',
-    link: '/about/',
+    text: '友链',
+    link: '/friend-links/',
   },
   {
     text: '索引',

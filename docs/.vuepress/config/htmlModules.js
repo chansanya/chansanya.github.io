@@ -28,7 +28,7 @@ module.exports = {
         font-weight: bold;
         margin: 0 0 8px 0;
       ">心情</p>
-      不知道说啥
+      每天要开心啊
       </p>
       </div>`,
     // `<!-- 纵向自适应 -->
@@ -104,8 +104,8 @@ module.exports = {
     //     </script>
     //     `,
   }
-  
-  
+
+
   // module.exports = {
   //   homeSidebarB: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
   //   sidebarT: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,

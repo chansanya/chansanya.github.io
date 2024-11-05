@@ -1,8 +1,8 @@
 ---
 home: true
 # heroImage: /img/heard.png
-heroText: 葵花宝典
-tagline: 欲练此功。。。
+heroText: 闲碎记事本
+tagline: 因为怕忘记所以全写下来了！
 bannerBg: none
 
 features:
