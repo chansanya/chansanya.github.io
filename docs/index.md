@@ -2,7 +2,7 @@
 home: true
 # heroImage: /img/heard.png
 heroText: 闲碎记事本
-tagline: 因为怕忘记所以全写下来了！
+tagline: 因为不太聪明，所以就记下来了
 bannerBg: none
 
 features:

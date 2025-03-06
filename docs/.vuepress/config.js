@@ -5,7 +5,7 @@ const head = require('./config/head.js');
 module.exports = {
   theme: 'vdoing',
   title: "闲碎记事本",
-  description: '因为怕忘记所以全写下来了！',
+  description: '不太聪明，所以就记下来了',
   // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
   // base: '/blog/',
   // 主题配置
