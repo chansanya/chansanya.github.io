@@ -91,7 +91,7 @@ ffmpeg -i onepiece_demo.mp4
 #### 合并音频视频
 上面命令得到的帧数填充到 -r 后，以下用**23.98**举例
 ```shell
-ffmpeg -i out_frames/frame%08d.jpg -i onepiece_demo.mp4 -map 0:v:0 -map 1:a:0 -c:a copy -c:v libx264 -r 23.98 -pix_fmt yuv420p output_w_audio.mp4
+ffmpeg -r 23.98  -i out_frames/frame%08d.jpg -i onepiece_demo.mp4 -map 0:v:0 -map 1:a:0 -c:a copy -c:v libx264 -r 23.98 -pix_fmt yuv420p output_w_audio.mp4
 ```
 
 
