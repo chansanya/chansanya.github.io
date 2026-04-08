@@ -12,6 +12,8 @@ gem
 # VS Code project files
 .vscode/
 
+.codex
+
 # MacOS files
 .DS_Store
 Thumbs.db
