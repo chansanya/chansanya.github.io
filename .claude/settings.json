@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"import hashlib; print\\(hashlib.md5\\(\\).hexdigest\\(\\)[:6]\\)\")",
+      "Bash(git add *)",
+      "Bash(git commit *)"
+    ]
+  }
+}
